@@ -95,10 +95,6 @@ class KDB {
 			Sys.exit(0);
 		}
 
-		// final deckName = array[0];
-		// final majorPower = array[1].substr(12);
-		// final ally = array[2].substr(6);
-		// final hq = array[3].substr(4);
 		for (card in cards) {
 			cardRegex.match(card);
 			final id = getIdFromName(cardRegex.matched(2));
