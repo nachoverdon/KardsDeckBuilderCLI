@@ -35,9 +35,6 @@ class KDB {
 
 	public function new() {}
 
-	@:alias('d')
-	public var debug: Bool = false;
-
 	@:alias('f')
 	public var filePath: String;
 
@@ -62,8 +59,6 @@ class KDB {
 		} else {
 			deck = Clipboard.get();
 		}
-
-		if (debug) Sys.println('Deck:\n$deck');
 
 		final json = textToJson(deck);
 		final base64 = encodeJson(json);
