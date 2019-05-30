@@ -34,8 +34,8 @@ kdb -o -n -f
 
 You'll need [Haxe](http://haxe.org)
 ```
-    haxelib install tink_cli
-    haxelib install linc_clipboard
+haxelib install tink_cli
+haxelib install linc_clipboard
 ```
 
 Then just do, depending on your OS.
