@@ -36,7 +36,6 @@ You'll need [Haxe](http://haxe.org)
 ```
     haxelib install tink_cli
     haxelib install linc_clipboard
-    haxelib install openfl
 ```
 
 Then just do, depending on your OS.
