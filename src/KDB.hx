@@ -3,7 +3,7 @@ package;
 import tink.Cli;
 import tink.cli.Rest;
 import haxe.Json;
-import haxe.Resource;
+import haxe.Http;
 import sys.io.File;
 import haxe.io.Bytes;
 import haxe.crypto.Base64;
@@ -24,7 +24,9 @@ typedef Card = {
 
 
 class KDB {
-	static inline final BASE_URL = 'http://kardsdeck.opengamela.com/view?data=';
+	static inline final BASE_URL = 'https://kardsdeck.opengamela.com/';
+	static inline final VIEW_DATA = BASE_URL + 'view?data=';
+	static inline final CARDS_JSON = BASE_URL + 'assets/data/cards.json';
 	static var cardsJson: Array<Card>;
 
 	static function main() {
@@ -48,7 +50,7 @@ class KDB {
     @:defaultCommand
     public function generateKardsDBLink(rest: Rest<String>) {
 		try {
-			cardsJson = Json.parse(Resource.getString('cards'));
+			cardsJson = Json.parse(Http.requestUrl(CARDS_JSON));
 		} catch (e:Dynamic) {
 			Sys.println('Error trying to fetch the card list. Please, report this issue.\n$e');
 		}
@@ -134,6 +136,6 @@ class KDB {
 	}
 
 	function getUrl(base64: String): String {
-		return BASE_URL + base64;
+		return VIEW_DATA + base64;
 	}
 }
