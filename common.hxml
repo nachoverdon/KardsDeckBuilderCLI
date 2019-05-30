@@ -1,0 +1,7 @@
+-cp src
+-D analyzer-optimize
+-lib tink_cli
+-lib linc_clipboard
+-resource cards.json@cards
+-main KDB
+-cpp export/

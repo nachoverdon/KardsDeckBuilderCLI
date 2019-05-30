@@ -1,0 +1,4586 @@
+[
+	{
+		"faction": "Britain",
+		"id": 0,
+		"image": "aa_barrage.jpg",
+		"kredits": 1,
+		"rarity": "Standard",
+		"text": "Send an air unit back to its owner's hand. Give your HQ +2 defense.",
+		"title": "AA BARRAGE",
+		"type": "order"
+	},
+	{
+		"faction": "Germany",
+		"id": 1,
+		"image": "admiral_hipper.jpg",
+		"kredits": 5,
+		"rarity": "Elite",
+		"text": "Send unit back to owner's hand. Enemy does not gain kredit slot or draw a card next turn.",
+		"title": "ADMIRAL HIPPER",
+		"type": "order"
+	},
+	{
+		"faction": "Germany",
+		"id": 2,
+		"image": "airstrike.jpg",
+		"kredits": 3,
+		"rarity": "Special",
+		"text": "When the enemy deploys a unit, return it to hand. Enemy discards a random card.",
+		"title": "AIRSTRIKE",
+		"type": "countermeasure"
+	},
+	{
+		"faction": "Germany",
+		"id": 3,
+		"image": "air_blitz.jpg",
+		"kredits": 4,
+		"rarity": "Limited",
+		"text": "Deal 4 damage to the enemy HQ. ",
+		"title": "AIR BLITZ",
+		"type": "order"
+	},
+	{
+		"faction": "USA",
+		"id": 4,
+		"image": "air_defense.jpg",
+		"kredits": 2,
+		"rarity": "Elite",
+		"text": "Deal 3 damage to an attacking unit. If it's an air unit, destroy it instead.",
+		"title": "AIR DEFENSE",
+		"type": "countermeasure"
+	},
+	{
+		"faction": "Japan",
+		"id": 5,
+		"image": "air_superiority.jpg",
+		"kredits": 1,
+		"rarity": "Limited",
+		"text": "Deal 1 damage to a unit. If you have an air unit in the battlefield, deal 3 damage.",
+		"title": "AIR SUPERIORITY",
+		"type": "order"
+	},
+	{
+		"faction": "Japan",
+		"id": 6,
+		"image": "amphibious_assault.jpg",
+		"kredits": 3,
+		"rarity": "Limited",
+		"text": "Destroy an enemy unit that has 3 or less attack.",
+		"title": "AMPHIBIOUS ASSAULT",
+		"type": "order"
+	},
+	{
+		"faction": "Japan",
+		"id": 7,
+		"image": "ancient_empire.jpg",
+		"kredits": 5,
+		"rarity": "Standard",
+		"text": "Give your HQ +4 defense and all friendly units +1+1.",
+		"title": "ANCIENT EMPIRE",
+		"type": "order"
+	},
+	{
+		"faction": "Germany",
+		"id": 8,
+		"image": "annihilation.jpg",
+		"kredits": 6,
+		"rarity": "Special",
+		"text": "Destroy an enemy unit that costs 4 or less. Enemy discards a card at random.",
+		"title": "ANNIHILATION",
+		"type": "order"
+	},
+	{
+		"faction": "Soviet",
+		"id": 9,
+		"image": "arctic_convoy.jpg",
+		"kredits": 4,
+		"rarity": "Limited",
+		"text": "Draw two random units from your deck.",
+		"title": "ARCTIC CONVOY",
+		"type": "order"
+	},
+	{
+		"can_create": [
+			"light_infantry"
+		],
+		"faction": "Soviet",
+		"id": 10,
+		"image": "frontal_assault.jpg",
+		"kredits": 2,
+		"rarity": "Standard",
+		"text": "Your LIGHT INFANTRY units get +1+1. If you have none, add two to your hand.",
+		"title": "FRONTAL ASSAULT",
+		"type": "order"
+	},
+	{
+		"faction": "Britain",
+		"id": 11,
+		"image": "atlantic_convoy.jpg",
+		"kredits": 3,
+		"rarity": "Special",
+		"text": "Add to battlefield a random US unit that cost 3K or less and add another to hand.",
+		"title": "ATLANTIC CONVOY",
+		"type": "order"
+	},
+	{
+		"faction": "USA",
+		"id": 12,
+		"image": "awoken_giant.jpg",
+		"kredits": 1,
+		"rarity": "Standard",
+		"text": "Deal 2 damage to target enemy unit in the frontline. If this destroys it, draw a card.",
+		"title": "AWOKEN GIANT",
+		"type": "order"
+	},
+	{
+		"faction": "Germany",
+		"id": 13,
+		"image": "bismarck.jpg",
+		"kredits": 10,
+		"rarity": "Elite",
+		"text": "Deal 7 damage to the enemy HQ.",
+		"title": "BISMARCK",
+		"type": "order"
+	},
+	{
+		"faction": "Germany",
+		"id": 14,
+		"image": "blackout.jpg",
+		"kredits": 1,
+		"rarity": "Standard",
+		"text": "Pin all enemy air units and draw a card.",
+		"title": "BLACKOUT",
+		"type": "order"
+	},
+	{
+		"faction": "Japan",
+		"id": 15,
+		"image": "blade_of_the_samurai.jpg",
+		"kredits": 6,
+		"rarity": "Special",
+		"text": "Destroy an enemy unit.",
+		"title": "BLADE OF THE SAMURAI",
+		"type": "order"
+	},
+	{
+		"faction": "Germany",
+		"id": 16,
+		"image": "blitzkrieg.jpg",
+		"kredits": 3,
+		"rarity": "Limited",
+		"text": "Friendly units in the frontline have +3 attack and operate for one less until end of turn.",
+		"title": "BLITZKRIEG",
+		"type": "order"
+	},
+	{
+		"faction": "Britain",
+		"id": 17,
+		"image": "blockade.jpg",
+		"kredits": 3,
+		"rarity": "Limited",
+		"text": "Deal 1 damage to any target. Double the cost of a random card in enemy hand.",
+		"title": "BLOCKADE",
+		"type": "order"
+	},
+	{
+		"faction": "Soviet",
+		"id": 18,
+		"image": "bloody_sickle.jpg",
+		"kredits": 0,
+		"rarity": "Standard",
+		"text": "Deal 1 damage to a ground unit and your HQ. Draw a card.",
+		"title": "BLOODY SICKLE",
+		"type": "order"
+	},
+	{
+		"faction": "Soviet",
+		"id": 19,
+		"image": "blood_red_sky.jpg",
+		"kredits": 2,
+		"rarity": "Special",
+		"text": "Give all friendly Soviet air units +2+2.",
+		"title": "BLOOD RED SKY",
+		"type": "order"
+	},
+	{
+		"faction": "Japan",
+		"id": 20,
+		"image": "bombing_raid.jpg",
+		"kredits": 3,
+		"rarity": "Elite",
+		"text": "Deal 3 damage to an enemy target and 2 damage to adjacent targets.",
+		"title": "BOMBING RAID",
+		"type": "order"
+	},
+	{
+		"faction": "Germany",
+		"id": 21,
+		"image": "breakthrough.jpg",
+		"kredits": 3,
+		"rarity": "Limited",
+		"text": "Remove Guard, Ambush and Smokescreen from all enemy units.",
+		"title": "BREAKTHROUGH",
+		"type": "order"
+	},
+	{
+		"faction": "Soviet",
+		"id": 22,
+		"image": "burning_sky.jpg",
+		"kredits": 1,
+		"rarity": "Standard",
+		"text": "Deal 4 damage to an enemy air unit.",
+		"title": "BURNING SKY",
+		"type": "order"
+	},
+	{
+		"faction": "Japan",
+		"id": 23,
+		"image": "burning_sun.jpg",
+		"kredits": 2,
+		"rarity": "Standard",
+		"text": "Friendly air units have +3 attack until end of turn.",
+		"title": "BURNING SUN",
+		"type": "order"
+	},
+	{
+		"faction": "Japan",
+		"id": 24,
+		"image": "burst_of_fire.jpg",
+		"kredits": 1,
+		"rarity": "Special",
+		"text": "Give a friendly fighter +1 attack and Fury this turn.",
+		"title": "BURST OF FIRE",
+		"type": "order"
+	},
+	{
+		"faction": "USA",
+		"id": 25,
+		"image": "cadet_nurse_corps.jpg",
+		"kredits": 4,
+		"rarity": "Special",
+		"text": "Fully repair all friendly units and give them +1+1.",
+		"title": "CADET NURSE CORPS",
+		"type": "order"
+	},
+	{
+		"faction": "Germany",
+		"id": 26,
+		"image": "careless_talk.jpg",
+		"kredits": 1,
+		"rarity": "Standard",
+		"text": "When your enemy deploys a unit, deal 3 damage to it.",
+		"title": "CARELESS TALK",
+		"type": "countermeasure"
+	},
+	{
+		"faction": "Britain",
+		"id": 27,
+		"image": "carpet_bombing.jpg",
+		"kredits": 8,
+		"rarity": "Special",
+		"text": "Deal 3 damage to all enemy units.",
+		"title": "CARPET BOMBING",
+		"type": "order"
+	},
+	{
+		"faction": "Britain",
+		"id": 28,
+		"image": "close_air_support.jpg",
+		"kredits": 1,
+		"rarity": "Standard",
+		"text": "Give a friendly unit +X+X where X is the number of British air units you control.",
+		"title": "CLOSE AIR SUPPORT",
+		"type": "order"
+	},
+	{
+		"faction": "Soviet",
+		"id": 29,
+		"image": "close_combat.jpg",
+		"kredits": 2,
+		"rarity": "Special",
+		"text": "Give your friendly infantry units +3 attack until end of turn.",
+		"title": "CLOSE COMBAT",
+		"type": "order"
+	},
+	{
+		"faction": "Japan",
+		"id": 30,
+		"image": "code_of_bushido.jpg",
+		"kredits": 3,
+		"rarity": "Special",
+		"text": "Destroy a friendly air unit. Deal 2 damage to each enemy.",
+		"title": "CODE OF BUSHIDO",
+		"type": "order"
+	},
+	{
+		"faction": "Germany",
+		"id": 31,
+		"image": "combined_arms.jpg",
+		"kredits": 1,
+		"rarity": "Standard",
+		"text": "Friendly tank unit gets +1+1 if you control infantry or air unit. +3+3 if you control both.",
+		"title": "COMBINED ARMS",
+		"type": "order"
+	},
+	{
+		"faction": "Britain",
+		"id": 32,
+		"image": "convoy_hx_175.jpg",
+		"kredits": 3,
+		"rarity": "Standard",
+		"text": "Draw 2 cards.",
+		"title": "CONVOY HX 175",
+		"type": "order"
+	},
+	{
+		"faction": "Soviet",
+		"id": 33,
+		"image": "critical_hit.jpg",
+		"kredits": 4,
+		"rarity": "Limited",
+		"text": "Destroy a damaged unit.",
+		"title": "CRITICAL HIT",
+		"type": "order"
+	},
+	{
+		"faction": "Britain",
+		"id": 34,
+		"image": "cup_of_tea.jpg",
+		"kredits": 1,
+		"rarity": "Standard",
+		"text": "Your British units get +2 defense.",
+		"title": "CUP OF TEA",
+		"type": "order"
+	},
+	{
+		"faction": "Britain",
+		"id": 35,
+		"image": "daylight_bombing.jpg",
+		"kredits": 4,
+		"rarity": "Special",
+		"text": "Deal 3 damage to any target. The enemy loses 1 kredit slot.",
+		"title": "DAYLIGHT BOMBING",
+		"type": "order"
+	},
+	{
+		"faction": "Japan",
+		"id": 36,
+		"image": "deadly_duty.jpg",
+		"kredits": 1,
+		"rarity": "Standard",
+		"text": "Destroy a friendly unit. Draw 2 cards.",
+		"title": "DEADLY DUTY",
+		"type": "order"
+	},
+	{
+		"faction": "USA",
+		"id": 37,
+		"image": "death_from_above.jpg",
+		"kredits": 4,
+		"rarity": "Limited",
+		"text": "Destroy a random enemy unit.",
+		"title": "DEATH FROM ABOVE",
+		"type": "order"
+	},
+	{
+		"faction": "Britain",
+		"id": 38,
+		"image": "the_desert_rats.jpg",
+		"kredits": 1,
+		"rarity": "Limited",
+		"text": "Deal 2 damage to an enemy unit and Pin it.",
+		"title": "THE DESERT RATS",
+		"type": "order"
+	},
+	{
+		"faction": "Germany",
+		"id": 39,
+		"image": "dive_bombing.jpg",
+		"kredits": 1,
+		"rarity": "Standard",
+		"text": "Target enemy unit gets -2 attack and -1 defense until end of turn.",
+		"title": "DIVE BOMBING",
+		"type": "order"
+	},
+	{
+		"faction": "Japan",
+		"id": 40,
+		"image": "divine_wind.jpg",
+		"kredits": 3,
+		"rarity": "Special",
+		"text": "Destroy a unit. Discard a random card from hand. ",
+		"title": "DIVINE WIND",
+		"type": "order"
+	},
+	{
+		"faction": "Germany",
+		"id": 41,
+		"image": "eagle_claws.jpg",
+		"kredits": 3,
+		"rarity": "Standard",
+		"text": "Deal 2 damage to all units in the enemy support line.",
+		"title": "EAGLE CLAWS",
+		"type": "order"
+	},
+	{
+		"faction": "Japan",
+		"id": 350,
+		"image": "empire_of_the_sun.jpg",
+		"kredits": 9,
+		"rarity": "Special",
+		"text": "Destroy an enemy unit. Draw cards equal to its attack.",
+		"title": "EMPIRE OF THE SUN",
+		"type": "order"
+	},
+	{
+		"faction": "Germany",
+		"id": 42,
+		"image": "encirclement.jpg",
+		"kredits": 2,
+		"rarity": "Special",
+		"text": "Duplicate a friendly unit in the frontline with cost 3 or less.",
+		"title": "ENCIRCLEMENT",
+		"type": "order"
+	},
+	{
+		"faction": "USA",
+		"id": 43,
+		"image": "enemy_spotted.jpg",
+		"kredits": 1,
+		"rarity": "Special",
+		"text": "If your enemy captures the frontline, draw 3 cards.",
+		"title": "ENEMY SPOTTED",
+		"type": "countermeasure"
+	},
+	{
+		"faction": "Germany",
+		"id": 44,
+		"image": "enigma.jpg",
+		"kredits": 4,
+		"rarity": "Special",
+		"text": "Draw cards until you have as many cards in your hand as the enemy.",
+		"title": "ENIGMA",
+		"type": "order"
+	},
+	{
+		"faction": "Germany",
+		"id": 45,
+		"image": "fast_heinz.jpg",
+		"kredits": 1,
+		"rarity": "Elite",
+		"text": "Your German tank units get +2+1.",
+		"title": "FAST HEINZ",
+		"type": "order"
+	},
+	{
+		"faction": "Soviet",
+		"id": 46,
+		"image": "final_push.jpg",
+		"kredits": 1,
+		"rarity": "Standard",
+		"text": "Give a friendly unit +3 attack. Destroy it at the end of your turn.",
+		"title": "FINAL PUSH",
+		"type": "order"
+	},
+	{
+		"faction": "Britain",
+		"id": 47,
+		"image": "finest_hour.jpg",
+		"kredits": 2,
+		"rarity": "Special",
+		"text": "Give an air unit +2+2 and Blitz.",
+		"title": "FINEST HOUR",
+		"type": "order"
+	},
+	{
+		"faction": "Britain",
+		"id": 48,
+		"image": "fortification.jpg",
+		"kredits": 3,
+		"rarity": "Standard",
+		"text": "Give your HQ +7 defense.",
+		"title": "FORTIFICATION",
+		"type": "order"
+	},
+	{
+		"faction": "USA",
+		"id": 49,
+		"image": "for_freedom.jpg",
+		"kredits": 3,
+		"rarity": "Special",
+		"text": "Give a unit +1+1. Draw a card.",
+		"title": "FOR FREEDOM",
+		"type": "order"
+	},
+	{
+		"faction": "Britain",
+		"id": 50,
+		"image": "precision_bombing.jpg",
+		"kredits": 3,
+		"rarity": "Limited",
+		"text": "If you have a bomber unit in the battlefield, destroy an enemy unit.",
+		"title": "PRECISION BOMBING",
+		"type": "order"
+	},
+	{
+		"faction": "Japan",
+		"id": 51,
+		"image": "for_prosperity.jpg",
+		"kredits": 2,
+		"rarity": "Limited",
+		"text": "Give your Japanese units +1+1.",
+		"title": "FOR PROSPERITY",
+		"type": "order"
+	},
+	{
+		"faction": "Japan",
+		"id": 52,
+		"image": "for_the_emperor.jpg",
+		"kredits": 1,
+		"rarity": "Special",
+		"text": "All friendly units have +1 attack and operate for one less until end of turn.",
+		"title": "FOR THE EMPEROR",
+		"type": "order"
+	},
+	{
+		"faction": "Britain",
+		"id": 53,
+		"image": "for_the_king.jpg",
+		"kredits": 2,
+		"rarity": "Standard",
+		"text": "Deal 5 damage to an enemy tank unit.",
+		"title": "FOR THE KING",
+		"type": "order"
+	},
+	{
+		"faction": "Germany",
+		"id": 54,
+		"image": "from_the_deep.jpg",
+		"kredits": 2,
+		"rarity": "Elite",
+		"text": "When your enemy deploys a unit, destroy it.",
+		"title": "FROM THE DEEP",
+		"type": "countermeasure"
+	},
+	{
+		"faction": "Soviet",
+		"id": 55,
+		"image": "from_the_people.jpg",
+		"kredits": 2,
+		"rarity": "Standard",
+		"text": "Deal 3 damage to a unit.",
+		"title": "FROM THE PEOPLE",
+		"type": "order"
+	},
+	{
+		"faction": "USA",
+		"id": 56,
+		"image": "gunship_mission.jpg",
+		"kredits": 2,
+		"rarity": "Standard",
+		"text": "Deal 2 damage to a target in the enemy support line. Your HQ gains +2 defense.",
+		"title": "GUNSHIP MISSION",
+		"type": "order"
+	},
+	{
+		"can_create": [
+			"swordfish_mk_i_b"
+		],
+		"faction": "Britain",
+		"id": 57,
+		"image": "hms_illustrious.jpg",
+		"kredits": 3,
+		"rarity": "Elite",
+		"text": "Add 2 SWORDFISH bombers with Blitz in your support line. ",
+		"title": "HMS ILLUSTRIOUS",
+		"type": "order"
+	},
+	{
+		"can_create": [
+			"type_3_chinu",
+			"aichi_d3a2"
+		],
+		"faction": "Japan",
+		"id": 351,
+		"image": "home_defense.jpg",
+		"kredits": 10,
+		"rarity": "Elite",
+		"text": "Costs 5 if your HQ is at 10 or less. Add TYPE 3 CHI-NU and AICHI D3A-2 to support line.",
+		"title": "HOME DEFENSE",
+		"type": "order"
+	},
+	{
+		"faction": "Japan",
+		"id": 58,
+		"image": "honor.jpg",
+		"kredits": 3,
+		"rarity": "Standard",
+		"text": "Give a friendly unit +4+4. At the end of your turn, destroy it.",
+		"title": "HONOR",
+		"type": "order"
+	},
+	{
+		"faction": "Japan",
+		"id": 59,
+		"image": "imperial_order.jpg",
+		"kredits": 1,
+		"rarity": "Standard",
+		"text": "Repair all damage to a unit and give it +1+1.",
+		"title": "IMPERIAL ORDER",
+		"type": "order"
+	},
+	{
+		"faction": "Japan",
+		"id": 60,
+		"image": "imperial_strength.jpg",
+		"kredits": 1,
+		"rarity": "Standard",
+		"text": "Countermeasures cannot trigger this turn. Deal 1 damage to the enemy HQ.",
+		"title": "IMPERIAL STRENGTH",
+		"type": "order"
+	},
+	{
+		"faction": "USA",
+		"id": 61,
+		"image": "industrial_might.jpg",
+		"kredits": 2,
+		"rarity": "Special",
+		"text": "Draw a card for each unit you have deployed or added this turn.",
+		"title": "INDUSTRIAL MIGHT",
+		"type": "order"
+	},
+	{
+		"faction": "Britain",
+		"id": 62,
+		"image": "interception.jpg",
+		"kredits": 1,
+		"rarity": "Standard",
+		"text": "Counter an enemy order that targets a friendly target.",
+		"title": "INTERCEPTION",
+		"type": "countermeasure"
+	},
+	{
+		"faction": "USA",
+		"id": 63,
+		"image": "in_the_navy.jpg",
+		"kredits": 2,
+		"rarity": "Special",
+		"text": "When enemy attacks your unit, give your unit +2+2.",
+		"title": "IN THE NAVY",
+		"type": "countermeasure"
+	},
+	{
+		"faction": "Germany",
+		"id": 64,
+		"image": "iron_from_the_north.jpg",
+		"kredits": 1,
+		"rarity": "Standard",
+		"text": "If you control the frontline, gain 3 additional Kredits",
+		"title": "IRON FROM THE NORTH",
+		"type": "order"
+	},
+	{
+		"faction": "Japan",
+		"id": 65,
+		"image": "kamikaze.jpg",
+		"kredits": 0,
+		"rarity": "Standard",
+		"text": "Deal 1 damage to the enemy HQ. Draw a card.",
+		"title": "KAMIKAZE",
+		"type": "order"
+	},
+	{
+		"faction": "USA",
+		"id": 66,
+		"image": "land_of_the_free.jpg",
+		"kredits": 2,
+		"rarity": "Standard",
+		"text": "Target friendly unit has 0 operation cost.",
+		"title": "LAND OF THE FREE",
+		"type": "order"
+	},
+	{
+		"can_create": [
+			"kamikaze"
+		],
+		"faction": "Japan",
+		"id": 67,
+		"image": "last_rites.jpg",
+		"kredits": 3,
+		"rarity": "Elite",
+		"text": "Shuffle 8 KAMIKAZE cards into your deck.",
+		"title": "LAST RITES",
+		"type": "order"
+	},
+	{
+		"faction": "Japan",
+		"id": 68,
+		"image": "lightning_conquest.jpg",
+		"kredits": 2,
+		"rarity": "Elite",
+		"text": "Friendly infantry units are immune to damage and can both move and attack this turn.",
+		"title": "LIGHTNING CONQUEST",
+		"type": "order"
+	},
+	{
+		"faction": "Soviet",
+		"id": 69,
+		"image": "mass_attack.jpg",
+		"kredits": 4,
+		"rarity": "Special",
+		"text": "Deal damage to target equal to number of units you control.",
+		"title": "MASS ATTACK",
+		"type": "order"
+	},
+	{
+		"faction": "Germany",
+		"id": 70,
+		"image": "missing.jpg",
+		"kredits": 2,
+		"rarity": "Special",
+		"text": "Destroy unit when moved into the frontline.",
+		"title": "MISSING",
+		"type": "countermeasure"
+	},
+	{
+		"faction": "Britain",
+		"id": 71,
+		"image": "mi5.jpg",
+		"kredits": 3,
+		"rarity": "Special",
+		"text": "Your enemy puts a random card in hand on top of their deck. You draw a card.",
+		"title": "MI5",
+		"type": "order"
+	},
+	{
+		"faction": "USA",
+		"id": 72,
+		"image": "mobilization.jpg",
+		"kredits": 5,
+		"rarity": "Special",
+		"text": "Draw 3 cards.",
+		"title": "MOBILIZATION",
+		"type": "order"
+	},
+	{
+		"faction": "Britain",
+		"id": 73,
+		"image": "monty.jpg",
+		"kredits": 1,
+		"rarity": "Elite",
+		"text": "Pin all enemy units. Draw a card.",
+		"title": "MONTY",
+		"type": "order"
+	},
+	{
+		"faction": "Soviet",
+		"id": 74,
+		"image": "mother_russia.jpg",
+		"kredits": 4,
+		"rarity": "Special",
+		"text": "Create a copy in hand of each friendly Soviet unit destroyed this turn.",
+		"title": "MOTHER RUSSIA",
+		"type": "order"
+	},
+	{
+		"faction": "Britain",
+		"id": 75,
+		"image": "national_fire_service.jpg",
+		"kredits": 3,
+		"rarity": "Standard",
+		"text": "When your HQ receives damage this turn, reduce the damage to 1.",
+		"title": "NATIONAL FIRE SERVICE",
+		"type": "countermeasure"
+	},
+	{
+		"faction": "USA",
+		"id": 76,
+		"image": "naval_bombardment.jpg",
+		"kredits": 3,
+		"rarity": "Limited",
+		"text": "Deal 2 damage to all units in the frontline and Pin them.",
+		"title": "NAVAL BOMBARDMENT",
+		"type": "order"
+	},
+	{
+		"faction": "Japan",
+		"id": 77,
+		"image": "naval_operation.jpg",
+		"kredits": 3,
+		"rarity": "Standard",
+		"text": "Pin all enemy ground units and deal 1 damage to them.",
+		"title": "NAVAL OPERATION",
+		"type": "order"
+	},
+	{
+		"faction": "Britain",
+		"id": 78,
+		"image": "naval_power.jpg",
+		"kredits": 3,
+		"rarity": "Standard",
+		"text": "Send an enemy unit to the owners hand. Give your HQ +3 defense.",
+		"title": "NAVAL POWER",
+		"type": "order"
+	},
+	{
+		"faction": "Japan",
+		"id": 79,
+		"image": "naval_supply_run.jpg",
+		"kredits": 3,
+		"rarity": "Special",
+		"text": "Give your units +2+1. At start of your next turn discard a card at random.",
+		"title": "NAVAL SUPPLY RUN",
+		"type": "order"
+	},
+	{
+		"faction": "Britain",
+		"id": 80,
+		"image": "naval_support.jpg",
+		"kredits": 2,
+		"rarity": "Standard",
+		"text": "Change the attack on target unit to be equal to its defense.",
+		"title": "NAVAL SUPPORT",
+		"type": "order"
+	},
+	{
+		"can_create": [
+			"no_10_commando"
+		],
+		"faction": "Britain",
+		"id": 81,
+		"image": "night_raid.jpg",
+		"kredits": 5,
+		"rarity": "Special",
+		"text": "Copy random order from enemy deck. Add a No. 10 COMMANDO to support line.",
+		"title": "NIGHT RAID",
+		"type": "order"
+	},
+	{
+		"can_create": [
+			"light_infantry"
+		],
+		"faction": "Soviet",
+		"id": 82,
+		"image": "no_surrender.jpg",
+		"kredits": 4,
+		"rarity": "Limited",
+		"text": "Add 1/1 LIGHT INFANTRY units into your support line until it is full.",
+		"title": "NO SURRENDER",
+		"type": "order"
+	},
+	{
+		"faction": "Soviet",
+		"id": 83,
+		"image": "order_227.jpg",
+		"kredits": 2,
+		"rarity": "Special",
+		"text": "Target Soviet unit gains Ambush. For each enemy in frontline, give it +1 attack.",
+		"title": "ORDER 227",
+		"type": "order"
+	},
+	{
+		"faction": "USA",
+		"id": 84,
+		"image": "overwhelming_force.jpg",
+		"kredits": 1,
+		"rarity": "Standard",
+		"text": "Target enemy unit loses Guard, Smokescreen, Fury and Ambush.",
+		"title": "OVERWHELMING FORCE",
+		"type": "order"
+	},
+	{
+		"faction": "Soviet",
+		"id": 85,
+		"image": "patriotic_firestorm.jpg",
+		"kredits": 1,
+		"rarity": "Limited",
+		"text": "Your support line units have + 2 attack until end of turn.",
+		"title": "PATRIOTIC FIRESTORM",
+		"type": "order"
+	},
+	{
+		"faction": "Soviet",
+		"id": 86,
+		"image": "great_patriotic_war.jpg",
+		"kredits": 6,
+		"rarity": "Elite",
+		"text": "Each HQ is damaged equal to half of its defense, round damage down.",
+		"title": "GREAT PATRIOTIC WAR",
+		"type": "order"
+	},
+	{
+		"faction": "USA",
+		"id": 87,
+		"image": "patriotic_zeal.jpg",
+		"kredits": 7,
+		"rarity": "Special",
+		"text": "Double the attack and defense of a friendly unit.",
+		"title": "PATRIOTIC ZEAL",
+		"type": "order"
+	},
+	{
+		"faction": "USA",
+		"id": 88,
+		"image": "patton.jpg",
+		"kredits": 1,
+		"rarity": "Elite",
+		"text": "Units you deploy cost 1 less kredit and have Blitz this turn.",
+		"title": "PATTON",
+		"type": "order"
+	},
+	{
+		"faction": "Britain",
+		"id": 89,
+		"image": "radar_alert.jpg",
+		"kredits": 3,
+		"rarity": "Special",
+		"text": "When the enemy deploys a unit, add a random British air unit of similar cost.",
+		"title": "RADAR ALERT",
+		"type": "countermeasure"
+	},
+	{
+		"faction": "Japan",
+		"id": 90,
+		"image": "long_range_recon.jpg",
+		"kredits": 4,
+		"rarity": "Standard",
+		"text": "Give your HQ + X defense where X is the count of all enemy units and hand cards.",
+		"title": "LONG RANGE RECON",
+		"type": "order"
+	},
+	{
+		"faction": "Soviet",
+		"id": 91,
+		"image": "red_banner.jpg",
+		"kredits": 1,
+		"rarity": "Elite",
+		"text": "Destroy a friendly unit. Add a random unit from same nation that costs 2 more.",
+		"title": "RED BANNER",
+		"type": "order"
+	},
+	{
+		"faction": "Soviet",
+		"id": 92,
+		"image": "red_october.jpg",
+		"kredits": 4,
+		"rarity": "Limited",
+		"text": "Give a Soviet tank unit or infantry unit +3+3.",
+		"title": "RED OCTOBER",
+		"type": "order"
+	},
+	{
+		"faction": "Germany",
+		"id": 93,
+		"image": "reichsbank.jpg",
+		"kredits": 2,
+		"rarity": "Standard",
+		"text": "Gain 3 additional kredits next turn.",
+		"title": "REICHSBANK",
+		"type": "order"
+	},
+	{
+		"faction": "Germany",
+		"id": 94,
+		"image": "reinforcements.jpg",
+		"kredits": 3,
+		"rarity": "Limited",
+		"text": "Fully repair all friendly units and draw a card.",
+		"title": "REINFORCEMENTS",
+		"type": "order"
+	},
+	{
+		"faction": "Britain",
+		"id": 95,
+		"image": "rescue_mission.jpg",
+		"kredits": 3,
+		"rarity": "Special",
+		"text": "When a friendly unit is destroyed, place 2 copies of it into your hand.",
+		"title": "RESCUE MISSION",
+		"type": "countermeasure"
+	},
+	{
+		"can_create": [
+			"light_infantry"
+		],
+		"faction": "Soviet",
+		"id": 96,
+		"image": "reserves.jpg",
+		"kredits": 1,
+		"rarity": "Standard",
+		"text": "Add two LIGHT INFANTRY to your hand, plus one for each previously played RESERVES.",
+		"title": "RESERVES",
+		"type": "order"
+	},
+	{
+		"faction": "Japan",
+		"id": 97,
+		"image": "rising_sun.jpg",
+		"kredits": 1,
+		"rarity": "Standard",
+		"text": "If you control a Japanese unit in the frontline, draw 2 cards.",
+		"title": "RISING SUN",
+		"type": "order"
+	},
+	{
+		"faction": "Soviet",
+		"id": 98,
+		"image": "scorched_earth.jpg",
+		"kredits": 2,
+		"rarity": "Limited",
+		"text": "Destroy all your units. Increase the operation cost of all enemy units in play by 3.",
+		"title": "SCORCHED EARTH",
+		"type": "order"
+	},
+	{
+		"faction": "USA",
+		"id": 99,
+		"image": "seaborne_invasion.jpg",
+		"kredits": 8,
+		"rarity": "Elite",
+		"text": "All enemy units in frontline retreat. Add two random US infantry units there.",
+		"title": "SEABORNE INVASION",
+		"type": "order"
+	},
+	{
+		"can_create": [
+			"t34_1942_b"
+		],
+		"faction": "Soviet",
+		"id": 100,
+		"image": "siberian_transfer.jpg",
+		"kredits": 2,
+		"rarity": "Elite",
+		"text": "Add a T-34 1942 unit in your support line. Destroy it at end of turn.",
+		"title": "SIBERIAN TRANSFER",
+		"type": "order"
+	},
+	{
+		"faction": "Germany",
+		"id": 101,
+		"image": "sky_barons.jpg",
+		"kredits": 4,
+		"rarity": "Limited",
+		"text": "Destroy target air unit.",
+		"title": "SKY BARONS",
+		"type": "order"
+	},
+	{
+		"faction": "USA",
+		"id": 102,
+		"image": "strategic_bombing.jpg",
+		"kredits": 6,
+		"rarity": "Elite",
+		"text": "Deal 3 damage to all targets in the enemy support line. The enemy loses 1 kredit slot. ",
+		"title": "STRATEGIC BOMBING",
+		"type": "order"
+	},
+	{
+		"faction": "Germany",
+		"id": 103,
+		"image": "sudden_strike.jpg",
+		"kredits": 2,
+		"rarity": "Limited",
+		"text": "Destroy a unit that costs 3 kredits or less.",
+		"title": "SUDDEN STRIKE",
+		"type": "order"
+	},
+	{
+		"faction": "USA",
+		"id": 352,
+		"image": "supply_chain.jpg",
+		"kredits": 2,
+		"rarity": "Standard",
+		"text": "Draw a card. If SUPPLY CHAIN is discarded, add 2 copies to your hand.",
+		"title": "SUPPLY CHAIN",
+		"type": "order"
+	},
+	{
+		"faction": "Britain",
+		"id": 104,
+		"image": "supply_drop.jpg",
+		"kredits": 2,
+		"rarity": "Standard",
+		"text": "Give a tank or infantry unit +4 defense and Guard. Smokescreen is removed.",
+		"title": "SUPPLY DROP",
+		"type": "order"
+	},
+	{
+		"faction": "USA",
+		"id": 105,
+		"image": "supply_shipment.jpg",
+		"kredits": 2,
+		"rarity": "Standard",
+		"text": "Give a unit in the frontline +2+3.",
+		"title": "SUPPLY SHIPMENT",
+		"type": "order"
+	},
+	{
+		"faction": "Japan",
+		"id": 106,
+		"image": "surprise_attack.jpg",
+		"kredits": 2,
+		"rarity": "Standard",
+		"text": "Pin an enemy unit. If already pinned, destroy it instead.",
+		"title": "SURPRISE ATTACK",
+		"type": "order"
+	},
+	{
+		"faction": "Germany",
+		"id": 107,
+		"image": "tactical_strike.jpg",
+		"kredits": 4,
+		"rarity": "Limited",
+		"text": "Deal 2 damage to a unit. Deal 4 damage if the unit is in a support line. Draw a card.",
+		"title": "TACTICAL STRIKE",
+		"type": "order"
+	},
+	{
+		"faction": "Britain",
+		"id": 108,
+		"image": "tactical_withdrawal.jpg",
+		"kredits": 1,
+		"rarity": "Limited",
+		"text": "All friendly units in the frontline retreat and are fully repaired.",
+		"title": "TACTICAL WITHDRAWAL",
+		"type": "order"
+	},
+	{
+		"faction": "Soviet",
+		"id": 109,
+		"image": "tamanskaya.jpg",
+		"kredits": 1,
+		"rarity": "Standard",
+		"text": "Fully repair all friendly ground units.",
+		"title": "TAMANSKAYA!",
+		"type": "order"
+	},
+	{
+		"faction": "USA",
+		"id": 110,
+		"image": "the_alliance.jpg",
+		"kredits": 4,
+		"rarity": "Special",
+		"text": "Give all your non USA units +2+2. ",
+		"title": "THE ALLIANCE",
+		"type": "order"
+	},
+	{
+		"faction": "Britain",
+		"id": 111,
+		"image": "the_commonwealth.jpg",
+		"kredits": 12,
+		"rarity": "Elite",
+		"text": "Deal 20 damage to enemy HQ, if your HQ has 30 or more defense. Draw 4 cards.",
+		"title": "THE COMMONWEALTH",
+		"type": "order"
+	},
+	{
+		"faction": "Britain",
+		"id": 112,
+		"image": "the_empire_strikes.jpg",
+		"kredits": 4,
+		"rarity": "Special",
+		"text": "Deal X damage to each enemy where X is equal to the number of bombers you have.",
+		"title": "THE EMPIRE STRIKES",
+		"type": "order"
+	},
+	{
+		"faction": "Soviet",
+		"id": 113,
+		"image": "the_hammer.jpg",
+		"kredits": 3,
+		"rarity": "Limited",
+		"text": "Deal 6 damage to a ground unit.",
+		"title": "THE HAMMER",
+		"type": "order"
+	},
+	{
+		"faction": "USA",
+		"id": 114,
+		"image": "the_war_machine.jpg",
+		"kredits": 2,
+		"rarity": "Standard",
+		"text": "Gain 1 extra kredit slot.",
+		"title": "THE WAR MACHINE",
+		"type": "order"
+	},
+	{
+		"faction": "Japan",
+		"id": 115,
+		"image": "tora_tora_tora.jpg",
+		"kredits": 2,
+		"rarity": "Standard",
+		"text": "Deal 1 damage to all enemies",
+		"title": "TORA! TORA! TORA!",
+		"type": "order"
+	},
+	{
+		"faction": "USA",
+		"id": 116,
+		"image": "torpedo_attack.jpg",
+		"kredits": 4,
+		"rarity": "Special",
+		"text": "Destroy an enemy unit that is in the frontline.",
+		"title": "TORPEDO ATTACK",
+		"type": "order"
+	},
+	{
+		"faction": "Britain",
+		"id": 117,
+		"image": "ultra.jpg",
+		"kredits": 3,
+		"rarity": "Elite",
+		"text": "Counter an enemy order and draw a card.",
+		"title": "ULTRA",
+		"type": "countermeasure"
+	},
+	{
+		"faction": "USA",
+		"id": 353,
+		"image": "uncle_sam.jpg",
+		"kredits": 4,
+		"rarity": "Standard",
+		"text": "Duplicate a random unit in your hand.",
+		"title": "UNCLE SAM",
+		"type": "order"
+	},
+	{
+		"faction": "Britain",
+		"id": 118,
+		"image": "unexpected_resistance.jpg",
+		"kredits": 1,
+		"rarity": "Standard",
+		"text": "Pin a unit that moves to the frontline. If it has Blitz, destroy it instead.",
+		"title": "UNEXPECTED RESISTANCE",
+		"type": "countermeasure"
+	},
+	{
+		"faction": "USA",
+		"id": 119,
+		"image": "unity_is_strength.jpg",
+		"kredits": 1,
+		"rarity": "Limited",
+		"text": "Give a friendly infantry +1+1 for each friendly infantry unit on the battlefield.",
+		"title": "UNITY IS STRENGTH",
+		"type": "order"
+	},
+	{
+		"faction": "Soviet",
+		"id": 120,
+		"image": "ural_factories.jpg",
+		"kredits": 1,
+		"rarity": "Standard",
+		"text": "Destroy a friendly unit. Add a random unit from same nation that costs 1 more.",
+		"title": "URAL FACTORIES",
+		"type": "order"
+	},
+	{
+		"faction": "USA",
+		"id": 121,
+		"image": "usace.jpg",
+		"kredits": 0,
+		"rarity": "Standard",
+		"text": "Give a tank or infantry unit +1+2.",
+		"title": "USACE",
+		"type": "order"
+	},
+	{
+		"faction": "Germany",
+		"id": 122,
+		"image": "u375.jpg",
+		"kredits": 2,
+		"rarity": "Limited",
+		"text": "Your enemy discards a random card with cost 5 or less.",
+		"title": "U-375",
+		"type": "order"
+	},
+	{
+		"faction": "USA",
+		"id": 123,
+		"image": "war_bonds.jpg",
+		"kredits": 5,
+		"rarity": "Limited",
+		"text": "Gain 2 additional kredit slots. Draw an additional card at the beginning of next turn.",
+		"title": "WAR BONDS",
+		"type": "order"
+	},
+	{
+		"faction": "Soviet",
+		"id": 124,
+		"image": "war_production.jpg",
+		"kredits": 0,
+		"rarity": "Standard",
+		"text": "Gain 2 additional kredits this turn. Discard all non-unit cards.",
+		"title": "WAR PRODUCTION",
+		"type": "order"
+	},
+	{
+		"faction": "USA",
+		"id": 125,
+		"image": "we_can_do_it.jpg",
+		"kredits": 6,
+		"rarity": "Limited",
+		"text": "Give your units and HQ +3 defense, gain 1 kredit slot and draw a card.",
+		"title": "WE CAN DO IT!",
+		"type": "order"
+	},
+	{
+		"faction": "Soviet",
+		"id": 126,
+		"image": "winter_warfare.jpg",
+		"kredits": 1,
+		"rarity": "Limited",
+		"text": "Deal 1 damage to all.",
+		"title": "WINTER WARFARE",
+		"type": "order"
+	},
+	{
+		"faction": "Germany",
+		"id": 127,
+		"image": "wolfpack.jpg",
+		"kredits": 5,
+		"rarity": "Special",
+		"text": "Your enemy discards a random card and doesn't draw a card next turn.",
+		"title": "WOLFPACK",
+		"type": "order"
+	},
+	{
+		"faction": "Soviet",
+		"id": 128,
+		"image": "workers_unite.jpg",
+		"kredits": 5,
+		"rarity": "Special",
+		"text": "Gain 1 additional kredit slot and draw 2 cards.",
+		"title": "WORKERS UNITE!",
+		"type": "order"
+	},
+	{
+		"faction": "Japan",
+		"id": 129,
+		"image": "admiral_yamamoto.jpg",
+		"kredits": 1,
+		"rarity": "Elite",
+		"text": "Your air units get +1 attack and Blitz this turn.",
+		"title": "ADMIRAL YAMAMOTO",
+		"type": "order"
+	},
+	{
+		"faction": "Soviet",
+		"id": 130,
+		"image": "zhukov.jpg",
+		"kredits": 1,
+		"rarity": "Elite",
+		"text": "Draw a random Soviet infantry from your deck. It costs 3 less.",
+		"title": "ZHUKOV",
+		"type": "order"
+	},
+	{
+		"attack": 0,
+		"defense": 20,
+		"faction": "Germany",
+		"id": 131,
+		"image": "tripoli.jpg",
+		"kredits": 0,
+		"operationCost": 0,
+		"rarity": "Standard",
+		"text": "The German Afrika Korps operated from Italian controlled Libya.",
+		"title": "TRIPOLI",
+		"type": "hq"
+	},
+	{
+		"attack": 0,
+		"defense": 20,
+		"faction": "Japan",
+		"id": 132,
+		"image": "hsinking.jpg",
+		"kredits": 0,
+		"operationCost": 0,
+		"rarity": "Standard",
+		"text": "HSINKING was the capital of the Japanese puppet state Manchuko.",
+		"title": "HSINKING",
+		"type": "hq"
+	},
+	{
+		"attack": 0,
+		"defense": 20,
+		"faction": "USA",
+		"id": 133,
+		"image": "cherbourg.jpg",
+		"kredits": 0,
+		"operationCost": 0,
+		"rarity": "Standard",
+		"text": "Cherbourg was an important harbor for the allies after D-Day.",
+		"title": "CHERBOURG",
+		"type": "hq"
+	},
+	{
+		"attack": 0,
+		"defense": 20,
+		"faction": "Britain",
+		"id": 134,
+		"image": "alexandria.jpg",
+		"kredits": 0,
+		"operationCost": 0,
+		"rarity": "Standard",
+		"text": "Alexandria was an important naval base for the British during WWII.",
+		"title": "ALEXANDRIA",
+		"type": "hq"
+	},
+	{
+		"attack": 0,
+		"defense": 20,
+		"faction": "Soviet",
+		"id": 135,
+		"image": "stalingrad.jpg",
+		"kredits": 0,
+		"operationCost": 0,
+		"rarity": "Standard",
+		"text": "The battle of Stalingrad is often identified as the turning point on the Eastern Front.",
+		"title": "STALINGRAD",
+		"type": "hq"
+	},
+	{
+		"attack": 4,
+		"attributes": [
+			"blitz",
+			"ambush"
+		],
+		"defense": 3,
+		"faction": "USA",
+		"id": 136,
+		"image": "101st_airborne.jpg",
+		"kredits": 5,
+		"operationCost": 1,
+		"rarity": "Elite",
+		"text": "Deployment: Deal 2 damage to a target in the enemy support line.",
+		"title": "101st AIRBORNE",
+		"type": "infantry"
+	},
+	{
+		"attack": 1,
+		"defense": 2,
+		"faction": "USA",
+		"id": 137,
+		"image": "10th_engineers_battalion.jpg",
+		"kredits": 1,
+		"operationCost": 1,
+		"rarity": "Special",
+		"text": "Adjacent ground units have +2 attack.",
+		"title": "10th ENGINEERS BATTALION",
+		"type": "infantry"
+	},
+	{
+		"attack": 2,
+		"defense": 3,
+		"faction": "Germany",
+		"id": 138,
+		"image": "10_5_cm_lefh.jpg",
+		"kredits": 5,
+		"operationCost": 1,
+		"rarity": "Standard",
+		"text": "Deployment: Deal 3 damage to the enemy HQ.",
+		"title": "10.5 cm leFH",
+		"type": "artillery"
+	},
+	{
+		"attack": 0,
+		"attributes": [
+			"smokescreen"
+		],
+		"defense": 4,
+		"faction": "Soviet",
+		"id": 139,
+		"image": "329th_engineer_battalion.jpg",
+		"kredits": 1,
+		"operationCost": 4,
+		"rarity": "Elite",
+		"text": "When another friendly unit is destroyed, your HQ gains +2 defense.",
+		"title": "329th ENGINEER BATTALION",
+		"type": "infantry"
+	},
+	{
+		"attack": 2,
+		"defense": 2,
+		"faction": "Soviet",
+		"id": 140,
+		"image": "13th_rifle_regiment.jpg",
+		"kredits": 2,
+		"operationCost": 1,
+		"rarity": "Limited",
+		"text": "Destruction: Add a random Soviet infantry unit to your hand.",
+		"title": "13th RIFLE REGIMENT",
+		"type": "infantry"
+	},
+	{
+		"attack": 0,
+		"attributes": [
+			"smokescreen"
+		],
+		"defense": 4,
+		"faction": "Germany",
+		"id": 141,
+		"image": "158_nachschub.jpg",
+		"kredits": 1,
+		"operationCost": 4,
+		"rarity": "Elite",
+		"text": "When a friendly unit destroys an enemy unit during your turn, gain 2 kredits.",
+		"title": "158. NACHSCHUB",
+		"type": "infantry"
+	},
+	{
+		"attack": 2,
+		"attributes": [
+			"blitz"
+		],
+		"defense": 1,
+		"faction": "Japan",
+		"id": 142,
+		"image": "15th_cavalry_regiment.jpg",
+		"kredits": 1,
+		"operationCost": 0,
+		"rarity": "Limited",
+		"text": "",
+		"title": "15th CAVALRY REGIMENT",
+		"type": "infantry"
+	},
+	{
+		"attack": 3,
+		"defense": 2,
+		"faction": "Germany",
+		"id": 143,
+		"image": "15_cm_autokanone.jpg",
+		"kredits": 3,
+		"operationCost": 1,
+		"rarity": "Elite",
+		"text": "When you deploy a unit, deal 2 damage to the enemy HQ.",
+		"title": "15 cm AUTOKANONE",
+		"type": "artillery"
+	},
+	{
+		"attack": 0,
+		"defense": 1,
+		"faction": "Soviet",
+		"id": 144,
+		"image": "16th_rifles.jpg",
+		"kredits": 1,
+		"operationCost": 1,
+		"rarity": "Special",
+		"text": "At the start of your turn gain +1+1.",
+		"title": "16th RIFLES",
+		"type": "infantry"
+	},
+	{
+		"attack": 2,
+		"defense": 2,
+		"faction": "USA",
+		"id": 145,
+		"image": "17th_infantry_regiment.jpg",
+		"kredits": 2,
+		"operationCost": 1,
+		"rarity": "Standard",
+		"text": "Deployment: Give another friendly unit +1+1.",
+		"title": "17th INFANTRY REGIMENT",
+		"type": "infantry"
+	},
+	{
+		"attack": 2,
+		"defense": 3,
+		"faction": "Britain",
+		"id": 146,
+		"image": "17_pounder.jpg",
+		"kredits": 4,
+		"operationCost": 1,
+		"rarity": "Limited",
+		"text": "Deployment: Pin target enemy tank.",
+		"title": "17 POUNDER",
+		"type": "artillery"
+	},
+	{
+		"attack": 2,
+		"defense": 3,
+		"faction": "USA",
+		"id": 147,
+		"image": "155mm_1918_model.jpg",
+		"kredits": 4,
+		"operationCost": 1,
+		"rarity": "Limited",
+		"text": "When this unit attacks, it deals 1 damage to random enemy.",
+		"title": "155mm 1918 MODEL",
+		"type": "artillery"
+	},
+	{
+		"attack": 3,
+		"attributes": [
+			"smokescreen"
+		],
+		"defense": 5,
+		"faction": "Britain",
+		"id": 148,
+		"image": "1st_airlanding_brigade.jpg",
+		"kredits": 3,
+		"operationCost": 1,
+		"rarity": "Elite",
+		"text": "Units attacked by this unit must retreat if they survive.",
+		"title": "1st AIRLANDING BRIGADE",
+		"type": "infantry"
+	},
+	{
+		"attack": 1,
+		"defense": 2,
+		"faction": "Germany",
+		"id": 149,
+		"image": "1_infantry_regiment.jpg",
+		"kredits": 1,
+		"operationCost": 0,
+		"rarity": "Standard",
+		"text": "",
+		"title": "1. INFANTRY REGIMENT",
+		"type": "infantry"
+	},
+	{
+		"attack": 0,
+		"attributes": [
+			"smokescreen"
+		],
+		"defense": 4,
+		"faction": "Japan",
+		"id": 150,
+		"image": "1st_signal_regiment.jpg",
+		"kredits": 1,
+		"operationCost": 4,
+		"rarity": "Elite",
+		"text": "When another friendly unit is destroyed, deal 1 damage to the enemy HQ.",
+		"title": "1st SIGNAL REGIMENT",
+		"type": "infantry"
+	},
+	{
+		"attack": 2,
+		"attributes": [
+			"guard"
+		],
+		"defense": 4,
+		"faction": "Britain",
+		"id": 151,
+		"image": "22nd_guards_brigade.jpg",
+		"kredits": 4,
+		"operationCost": 1,
+		"rarity": "Limited",
+		"text": "Deployment: Give adjacent tank and infantry units +1+1.",
+		"title": "22nd GUARDS BRIGADE",
+		"type": "infantry"
+	},
+	{
+		"attack": 2,
+		"defense": 1,
+		"faction": "Germany",
+		"id": 152,
+		"image": "22_infantry_regiment.jpg",
+		"kredits": 2,
+		"operationCost": 1,
+		"rarity": "Special",
+		"text": "If you control the frontline at the end of your turn, draw a card.",
+		"title": "22. INFANTRY REGIMENT",
+		"type": "infantry"
+	},
+	{
+		"attack": 2,
+		"defense": 4,
+		"faction": "Britain",
+		"id": 153,
+		"image": "25_pounder.jpg",
+		"kredits": 4,
+		"operationCost": 1,
+		"rarity": "Standard",
+		"text": "",
+		"title": "25 POUNDER",
+		"type": "artillery"
+	},
+	{
+		"attack": 4,
+		"defense": 3,
+		"faction": "Japan",
+		"id": 154,
+		"image": "28cm_coastal_howitzer.jpg",
+		"kredits": 3,
+		"operationCost": 2,
+		"rarity": "Limited",
+		"text": "Cannot attack the enemy HQ.",
+		"title": "28cm COASTAL HOWITZER",
+		"type": "artillery"
+	},
+	{
+		"attack": 3,
+		"attributes": [
+			"guard"
+		],
+		"defense": 4,
+		"faction": "Soviet",
+		"id": 155,
+		"image": "2nd_motor_rifles.jpg",
+		"kredits": 4,
+		"operationCost": 1,
+		"rarity": "Limited",
+		"text": "Has +2 attack against units with Blitz.",
+		"title": "2nd MOTOR RIFLES",
+		"type": "infantry"
+	},
+	{
+		"attack": 2,
+		"attributes": [
+			"blitz"
+		],
+		"defense": 2,
+		"faction": "Japan",
+		"id": 156,
+		"image": "2nd_raiding_brigade.jpg",
+		"kredits": 3,
+		"operationCost": 1,
+		"rarity": "Elite",
+		"text": "Deployment: Destroy target enemy unit with attack 2 or less.",
+		"title": "2nd RAIDING BRIGADE",
+		"type": "infantry"
+	},
+	{
+		"attack": 1,
+		"defense": 2,
+		"faction": "Britain",
+		"id": 157,
+		"image": "2_pounder.jpg",
+		"kredits": 2,
+		"operationCost": 0,
+		"rarity": "Standard",
+		"text": "Has +1 attack against tanks.",
+		"title": "2 POUNDER",
+		"type": "artillery"
+	},
+	{
+		"attack": 4,
+		"defense": 4,
+		"faction": "USA",
+		"id": 158,
+		"image": "30th_regiment.jpg",
+		"kredits": 3,
+		"operationCost": 1,
+		"rarity": "Standard",
+		"text": "",
+		"title": "30th REGIMENT",
+		"type": "infantry"
+	},
+	{
+		"attack": 1,
+		"attributes": [
+			"blitz"
+		],
+		"can_create": [
+			"light_infantry"
+		],
+		"defense": 2,
+		"faction": "Soviet",
+		"id": 159,
+		"image": "321st_rifle_regiment.jpg",
+		"kredits": 1,
+		"operationCost": 1,
+		"rarity": "Standard",
+		"text": "Destruction: Add a 1/1 LIGHT INFANTRY in your support line.",
+		"title": "321st RIFLE REGIMENT",
+		"type": "infantry"
+	},
+	{
+		"attack": 1,
+		"defense": 3,
+		"faction": "Japan",
+		"id": 160,
+		"image": "33rd_recon_regiment.jpg",
+		"kredits": 1,
+		"operationCost": 1,
+		"rarity": "Special",
+		"text": "When 33rd Recon takes damage, draw a card.",
+		"title": "33rd RECON REGIMENT",
+		"type": "infantry"
+	},
+	{
+		"attack": 4,
+		"defense": 3,
+		"faction": "Germany",
+		"id": 161,
+		"image": "33_panzergrenadier.jpg",
+		"kredits": 3,
+		"operationCost": 1,
+		"rarity": "Standard",
+		"text": "Deployment: Friendly tank units get +1 attack this turn.",
+		"title": "33. PANZERGRENADIER",
+		"type": "infantry"
+	},
+	{
+		"attack": 3,
+		"defense": 4,
+		"faction": "Soviet",
+		"id": 162,
+		"image": "35th_rifle_regiment.jpg",
+		"kredits": 3,
+		"operationCost": 1,
+		"rarity": "Special",
+		"text": "Costs 0 Kredits to play if a friendly unit was destroyed this turn.",
+		"title": "35th RIFLE REGIMENT",
+		"type": "infantry"
+	},
+	{
+		"attack": 3,
+		"attributes": [
+			"ambush"
+		],
+		"defense": 2,
+		"faction": "Soviet",
+		"id": 163,
+		"image": "3rd_guards_regiment.jpg",
+		"kredits": 2,
+		"operationCost": 1,
+		"rarity": "Standard",
+		"text": "",
+		"title": "3rd GUARDS REGIMENT",
+		"type": "infantry"
+	},
+	{
+		"attack": 2,
+		"defense": 3,
+		"faction": "Britain",
+		"id": 164,
+		"image": "3_7_inch_anti_air_gun.jpg",
+		"kredits": 5,
+		"operationCost": 1,
+		"rarity": "Limited",
+		"text": "Deployment: Pin all enemy air units.",
+		"title": "3.7 INCH ANTI AIR GUN",
+		"type": "artillery"
+	},
+	{
+		"attack": 1,
+		"attributes": [
+			"blitz",
+			"fury"
+		],
+		"defense": 1,
+		"faction": "Japan",
+		"id": 165,
+		"image": "41st_bicycle_regiment.jpg",
+		"kredits": 1,
+		"operationCost": 0,
+		"rarity": "Special",
+		"text": "",
+		"title": "41st BICYCLE REGIMENT",
+		"type": "infantry"
+	},
+	{
+		"attack": 3,
+		"attributes": [
+			"ambush"
+		],
+		"defense": 4,
+		"faction": "Soviet",
+		"id": 166,
+		"image": "42nd_rifles.jpg",
+		"kredits": 3,
+		"operationCost": 1,
+		"rarity": "Limited",
+		"text": "At the end of turn, fully repair this unit.",
+		"title": "42nd RIFLES",
+		"type": "infantry"
+	},
+	{
+		"attack": 1,
+		"attributes": [
+			"ambush"
+		],
+		"defense": 2,
+		"faction": "Soviet",
+		"id": 167,
+		"image": "45_mm_antitank_gun.jpg",
+		"kredits": 2,
+		"operationCost": 1,
+		"rarity": "Standard",
+		"text": "Has +2 attack against tanks.",
+		"title": "45 mm ANTI-TANK GUN",
+		"type": "artillery"
+	},
+	{
+		"attack": 1,
+		"defense": 3,
+		"faction": "USA",
+		"id": 168,
+		"image": "463rd_battalion.jpg",
+		"kredits": 1,
+		"operationCost": 1,
+		"rarity": "Standard",
+		"text": "When 463rd BATTALION attacks, deal 1 damage to random enemy in same front.",
+		"title": "463rd BATTALION",
+		"type": "infantry"
+	},
+	{
+		"attack": 1,
+		"defense": 3,
+		"faction": "Germany",
+		"id": 169,
+		"image": "4_pioneer_battalion.jpg",
+		"kredits": 1,
+		"operationCost": 1,
+		"rarity": "Standard",
+		"text": "Deployment: Give all friendly ground units in the frontline +1 defense.",
+		"title": "4. PIONEER BATTALION",
+		"type": "infantry"
+	},
+	{
+		"attack": 2,
+		"defense": 2,
+		"faction": "USA",
+		"id": 170,
+		"image": "506th_airborne.jpg",
+		"kredits": 1,
+		"operationCost": 1,
+		"rarity": "Standard",
+		"text": "",
+		"title": "506th AIRBORNE",
+		"type": "infantry"
+	},
+	{
+		"attack": 1,
+		"attributes": [
+			"blitz"
+		],
+		"defense": 1,
+		"faction": "Soviet",
+		"id": 171,
+		"image": "554th_rifle_regiment.jpg",
+		"kredits": 0,
+		"operationCost": 0,
+		"rarity": "Standard",
+		"text": "",
+		"title": "554th RIFLE REGIMENT",
+		"type": "infantry"
+	},
+	{
+		"attack": 1,
+		"attributes": [
+			"guard"
+		],
+		"defense": 5,
+		"faction": "Britain",
+		"id": 172,
+		"image": "5th_brigade.jpg",
+		"kredits": 2,
+		"operationCost": 1,
+		"rarity": "Standard",
+		"text": "",
+		"title": "5th BRIGADE",
+		"type": "infantry"
+	},
+	{
+		"attack": 5,
+		"can_create": [
+			"t34_1942_b"
+		],
+		"defense": 7,
+		"faction": "Soviet",
+		"id": 173,
+		"image": "6th_airborne_guards.jpg",
+		"kredits": 5,
+		"operationCost": 1,
+		"rarity": "Elite",
+		"text": "Deployment: Add a T-34 1942 unit to your support line. Destroy it at end of turn.",
+		"title": "6th AIRBORNE GUARDS",
+		"type": "infantry"
+	},
+	{
+		"attack": 2,
+		"attributes": [
+			"fury"
+		],
+		"defense": 2,
+		"faction": "Japan",
+		"id": 174,
+		"image": "6th_infantry_regiment.jpg",
+		"kredits": 2,
+		"operationCost": 0,
+		"rarity": "Standard",
+		"text": "",
+		"title": "6th INFANTRY REGIMENT",
+		"type": "infantry"
+	},
+	{
+		"attack": 3,
+		"defense": 1,
+		"faction": "Soviet",
+		"id": 175,
+		"image": "6th_naval_brigade.jpg",
+		"kredits": 1,
+		"operationCost": 0,
+		"rarity": "Limited",
+		"text": "",
+		"title": "6th NAVAL BRIGADE",
+		"type": "infantry"
+	},
+	{
+		"attack": 2,
+		"defense": 1,
+		"faction": "Britain",
+		"id": 176,
+		"image": "6_pounder.jpg",
+		"kredits": 3,
+		"operationCost": 1,
+		"rarity": "Standard",
+		"text": "Deals double damage against tanks.",
+		"title": "6 POUNDER",
+		"type": "artillery"
+	},
+	{
+		"attack": 3,
+		"defense": 2,
+		"faction": "Japan",
+		"id": 177,
+		"image": "75mm_field_artillery.jpg",
+		"kredits": 4,
+		"operationCost": 1,
+		"rarity": "Limited",
+		"text": "Enemies adjacent to target attacked by 75mm FIELD ARTILLERY are dealt 1 damage.",
+		"title": "75mm FIELD ARTILLERY",
+		"type": "artillery"
+	},
+	{
+		"attack": 3,
+		"defense": 1,
+		"faction": "Japan",
+		"id": 178,
+		"image": "75mm_mountain_gun.jpg",
+		"kredits": 2,
+		"operationCost": 1,
+		"rarity": "Special",
+		"text": "Can only attack units in the next front.",
+		"title": "75mm MOUNTAIN GUN",
+		"type": "artillery"
+	},
+	{
+		"attack": 3,
+		"defense": 1,
+		"faction": "USA",
+		"id": 179,
+		"image": "75mm_pack_howitzer.jpg",
+		"kredits": 3,
+		"operationCost": 1,
+		"rarity": "Limited",
+		"text": "",
+		"title": "75mm PACK HOWITZER",
+		"type": "artillery"
+	},
+	{
+		"attack": 3,
+		"attributes": [
+			"smokescreen"
+		],
+		"defense": 1,
+		"faction": "Soviet",
+		"id": 180,
+		"image": "76_mm_howitzer_1939_.jpg",
+		"kredits": 3,
+		"operationCost": 1,
+		"rarity": "Special",
+		"text": "",
+		"title": "76 mm HOWITZER 1939 ",
+		"type": "artillery"
+	},
+	{
+		"attack": 3,
+		"defense": 6,
+		"faction": "USA",
+		"id": 181,
+		"image": "7th_regiment.jpg",
+		"kredits": 4,
+		"operationCost": 2,
+		"rarity": "Standard",
+		"text": "Draw a card when 7th REGIMENT moves to the frontline.",
+		"title": "7th REGIMENT",
+		"type": "infantry"
+	},
+	{
+		"attack": 1,
+		"attributes": [
+			"guard"
+		],
+		"defense": 8,
+		"faction": "Soviet",
+		"id": 182,
+		"image": "84th_infantry_regiment.jpg",
+		"kredits": 3,
+		"operationCost": 1,
+		"rarity": "Standard",
+		"text": "",
+		"title": "84th INFANTRY REGIMENT",
+		"type": "infantry"
+	},
+	{
+		"attack": 4,
+		"defense": 3,
+		"faction": "Soviet",
+		"id": 183,
+		"image": "85mm_d44_field_gun.jpg",
+		"kredits": 6,
+		"operationCost": 2,
+		"rarity": "Special",
+		"text": "Units damaged by 85mm D-44 FIELD GUN and their adjacent units get Pinned.",
+		"title": "85mm D-44 FIELD GUN",
+		"type": "artillery"
+	},
+	{
+		"attack": 0,
+		"attributes": [
+			"smokescreen"
+		],
+		"defense": 4,
+		"faction": "Britain",
+		"id": 184,
+		"image": "85_pioneer_company.jpg",
+		"kredits": 1,
+		"operationCost": 4,
+		"rarity": "Elite",
+		"text": "Your orders cost 1 less kredit, to a minimum of 0.",
+		"title": "85 PIONEER COMPANY",
+		"type": "infantry"
+	},
+	{
+		"attack": 3,
+		"attributes": [
+			"ambush"
+		],
+		"defense": 3,
+		"faction": "Germany",
+		"id": 185,
+		"image": "88_mm_flak.jpg",
+		"kredits": 6,
+		"operationCost": 2,
+		"rarity": "Limited",
+		"text": "Deals double damage against air units.",
+		"title": "88 mm FLAK",
+		"type": "artillery"
+	},
+	{
+		"attack": 1,
+		"attributes": [
+			"guard"
+		],
+		"defense": 3,
+		"faction": "Soviet",
+		"id": 186,
+		"image": "89th_infantry_regiment.jpg",
+		"kredits": 1,
+		"operationCost": 1,
+		"rarity": "Standard",
+		"text": "",
+		"title": "89th INFANTRY REGIMENT",
+		"type": "infantry"
+	},
+	{
+		"attack": 4,
+		"defense": 5,
+		"faction": "USA",
+		"id": 187,
+		"image": "8th_cavalry_regiment.jpg",
+		"kredits": 4,
+		"operationCost": 2,
+		"rarity": "Standard",
+		"text": "Your HQ is immune to damage on your turn.",
+		"title": "8th CAVALRY REGIMENT",
+		"type": "infantry"
+	},
+	{
+		"attack": 3,
+		"attributes": [
+			"guard"
+		],
+		"defense": 5,
+		"faction": "Soviet",
+		"id": 354,
+		"image": "93rd_guards.jpg",
+		"kredits": 4,
+		"operationCost": 1,
+		"rarity": "Elite",
+		"text": "Destruction: Shuffle 2 copies of 93rd GUARDS into your deck.",
+		"title": "93rd GUARDS",
+		"type": "infantry"
+	},
+	{
+		"attack": 7,
+		"defense": 5,
+		"faction": "Soviet",
+		"id": 188,
+		"image": "95th_rifle_regiment.jpg",
+		"kredits": 5,
+		"operationCost": 1,
+		"rarity": "Standard",
+		"text": "Deployment: Deal 1 damage to your HQ.",
+		"title": "95th RIFLE REGIMENT",
+		"type": "infantry"
+	},
+	{
+		"attack": 1,
+		"defense": 3,
+		"faction": "USA",
+		"id": 189,
+		"image": "99th_infantry_battalion.jpg",
+		"kredits": 2,
+		"operationCost": 1,
+		"rarity": "Special",
+		"text": "If you control the frontline at the end of turn, deal 1 damage to a random enemy.",
+		"title": "99th INFANTRY BATTALION",
+		"type": "infantry"
+	},
+	{
+		"attack": 2,
+		"defense": 2,
+		"faction": "USA",
+		"id": 190,
+		"image": "a20_havoc.jpg",
+		"kredits": 3,
+		"operationCost": 2,
+		"rarity": "Standard",
+		"text": "Deployment: Random enemy unit has +2 operation cost.",
+		"title": "A-20 HAVOC",
+		"type": "bomber"
+	},
+	{
+		"attack": 3,
+		"defense": 4,
+		"faction": "Soviet",
+		"id": 191,
+		"image": "a20b.jpg",
+		"kredits": 4,
+		"operationCost": 2,
+		"rarity": "Limited",
+		"text": "Deployment: If you have a US unit, A-20B costs 1k less to deploy.",
+		"title": "A-20B",
+		"type": "bomber"
+	},
+	{
+		"attack": 2,
+		"defense": 3,
+		"faction": "Japan",
+		"id": 192,
+		"image": "a5m4_claude.jpg",
+		"kredits": 2,
+		"operationCost": 2,
+		"rarity": "Limited",
+		"text": "Deployment: Target friendly unit has -1 operation cost this turn, to a minimum of 0.",
+		"title": "A5M4 CLAUDE",
+		"type": "fighter"
+	},
+	{
+		"attack": 3,
+		"attributes": [
+			"smokescreen"
+		],
+		"defense": 3,
+		"faction": "Japan",
+		"id": 193,
+		"image": "aichi_d3a2.jpg",
+		"kredits": 3,
+		"operationCost": 2,
+		"rarity": "Limited",
+		"text": "Has +2 attack for each other AICHI D3A-2 you control.",
+		"title": "AICHI D3A-2",
+		"type": "bomber"
+	},
+	{
+		"attack": 2,
+		"attributes": [
+			"blitz"
+		],
+		"defense": 1,
+		"faction": "Japan",
+		"id": 194,
+		"image": "akita_regiment.jpg",
+		"kredits": 2,
+		"operationCost": 1,
+		"rarity": "Standard",
+		"text": "Destruction: Deal 2 damage to a random enemy.",
+		"title": "AKITA REGIMENT",
+		"type": "infantry"
+	},
+	{
+		"attack": 1,
+		"defense": 2,
+		"faction": "Britain",
+		"id": 195,
+		"image": "albacore_mk_i.jpg",
+		"kredits": 2,
+		"operationCost": 1,
+		"rarity": "Special",
+		"text": "Deployment: Deal 1 damage to an enemy ground unit and pin it.",
+		"title": "ALBACORE Mk I",
+		"type": "bomber"
+	},
+	{
+		"attack": 1,
+		"defense": 2,
+		"faction": "Germany",
+		"id": 196,
+		"image": "arado_ar_196.jpg",
+		"kredits": 1,
+		"operationCost": 1,
+		"rarity": "Special",
+		"text": "Deployment: If the enemy has more units in the battlefield, draw an order card from your deck.",
+		"title": "ARADO AR 196",
+		"type": "fighter"
+	},
+	{
+		"attack": 1,
+		"defense": 6,
+		"faction": "Britain",
+		"id": 197,
+		"image": "argyllshire_highlanders.jpg",
+		"kredits": 3,
+		"operationCost": 1,
+		"rarity": "Limited",
+		"text": "Has +3 attack while guarded.",
+		"title": "ARGYLLSHIRE HIGHLANDERS",
+		"type": "infantry"
+	},
+	{
+		"attack": 3,
+		"attributes": [
+			"guard",
+			"heavyArmor1"
+		],
+		"can_create": [
+			"light_infantry"
+		],
+		"defense": 7,
+		"faction": "Soviet",
+		"id": 198,
+		"image": "bp43_armored_train.jpg",
+		"kredits": 5,
+		"operationCost": 5,
+		"rarity": "Elite",
+		"text": "Can't attack. At the end of turn, add a 1/1 Soviet infantry in the same front.",
+		"title": "BP-43 ARMORED TRAIN",
+		"type": "tank"
+	},
+	{
+		"attack": 3,
+		"attributes": [
+			"heavyArmor1"
+		],
+		"defense": 4,
+		"faction": "USA",
+		"id": 199,
+		"image": "a24_banshee.jpg",
+		"kredits": 4,
+		"operationCost": 2,
+		"rarity": "Limited",
+		"text": "",
+		"title": "A-24 BANSHEE",
+		"type": "bomber"
+	},
+	{
+		"attack": 2,
+		"attributes": [
+			"fury"
+		],
+		"defense": 3,
+		"faction": "Soviet",
+		"id": 200,
+		"image": "b4_203mm_howitzer.jpg",
+		"kredits": 5,
+		"operationCost": 1,
+		"rarity": "Special",
+		"text": "Units damaged by B-4 203mm HOWITZER get -3 attack until end of turn.",
+		"title": "B-4 203mm HOWITZER",
+		"type": "artillery"
+	},
+	{
+		"attack": 3,
+		"defense": 4,
+		"faction": "Britain",
+		"id": 201,
+		"image": "baluch_regiment.jpg",
+		"kredits": 3,
+		"operationCost": 1,
+		"rarity": "Standard",
+		"text": "Deployment: Give your HQ +2 defense.",
+		"title": "BALUCH REGIMENT",
+		"type": "infantry"
+	},
+	{
+		"attack": 1,
+		"attributes": [
+			"fury",
+			"guard"
+		],
+		"defense": 4,
+		"faction": "Britain",
+		"id": 202,
+		"image": "black_watch.jpg",
+		"kredits": 4,
+		"operationCost": 1,
+		"rarity": "Special",
+		"text": "Deployment: Orders in enemy hand cost 2 more.",
+		"title": "BLACK WATCH",
+		"type": "infantry"
+	},
+	{
+		"attack": 8,
+		"defense": 5,
+		"faction": "Britain",
+		"id": 203,
+		"image": "m4_firefly.jpg",
+		"kredits": 5,
+		"operationCost": 2,
+		"rarity": "Elite",
+		"text": "Damage from M4 FIREFLY ignores Heavy Armor.",
+		"title": "M4 FIREFLY",
+		"type": "tank"
+	},
+	{
+		"attack": 2,
+		"defense": 2,
+		"faction": "Soviet",
+		"id": 204,
+		"image": "bt7.jpg",
+		"kredits": 2,
+		"operationCost": 0,
+		"rarity": "Standard",
+		"text": "",
+		"title": "BT-7",
+		"type": "tank"
+	},
+	{
+		"attack": 6,
+		"attributes": [
+			"heavyArmor1"
+		],
+		"defense": 6,
+		"faction": "USA",
+		"id": 205,
+		"image": "b17_flying_fortress.jpg",
+		"kredits": 9,
+		"operationCost": 3,
+		"rarity": "Special",
+		"text": "Deployment: Destroy random enemy unit.",
+		"title": "B-17 FLYING FORTRESS",
+		"type": "bomber"
+	},
+	{
+		"attack": 7,
+		"attributes": [
+			"heavyArmor1"
+		],
+		"defense": 5,
+		"faction": "USA",
+		"id": 206,
+		"image": "b24_liberator.jpg",
+		"kredits": 7,
+		"operationCost": 3,
+		"rarity": "Limited",
+		"text": "",
+		"title": "B-24 LIBERATOR",
+		"type": "bomber"
+	},
+	{
+		"attack": 4,
+		"defense": 5,
+		"faction": "USA",
+		"id": 207,
+		"image": "b25_mitchell.jpg",
+		"kredits": 6,
+		"operationCost": 3,
+		"rarity": "Limited",
+		"text": "Deployment: Deal 3 damage to a random enemy.",
+		"title": "B-25 MITCHELL",
+		"type": "bomber"
+	},
+	{
+		"attack": 3,
+		"attributes": [
+			"heavyArmor1"
+		],
+		"defense": 3,
+		"faction": "USA",
+		"id": 208,
+		"image": "b26_marauder.jpg",
+		"kredits": 4,
+		"operationCost": 2,
+		"rarity": "Elite",
+		"text": "When B-26 MARAUDER attacks the enemy HQ, enemy units get +1 operation cost.",
+		"title": "B-26 MARAUDER",
+		"type": "bomber"
+	},
+	{
+		"attack": 3,
+		"defense": 3,
+		"faction": "Japan",
+		"id": 209,
+		"image": "c6n_saiun.jpg",
+		"kredits": 3,
+		"operationCost": 2,
+		"rarity": "Elite",
+		"text": "Cannot be attacked by ground units while in support line. Countermeasures cannot trigger.",
+		"title": "C6N SAIUN",
+		"type": "fighter"
+	},
+	{
+		"attack": 2,
+		"attributes": [
+			"guard",
+			"heavyArmor1"
+		],
+		"defense": 6,
+		"faction": "Britain",
+		"id": 210,
+		"image": "churchill_mk_iv.jpg",
+		"kredits": 5,
+		"operationCost": 2,
+		"rarity": "Standard",
+		"text": "",
+		"title": "CHURCHILL Mk IV",
+		"type": "tank"
+	},
+	{
+		"attack": 4,
+		"defense": 4,
+		"faction": "Britain",
+		"id": 211,
+		"image": "9_2_inch_coastal_gun.jpg",
+		"kredits": 7,
+		"operationCost": 2,
+		"rarity": "Limited",
+		"text": "Each time 9.2 INCH COASTAL GUN attacks, your HQ gets +3 defense. ",
+		"title": "9.2 INCH COASTAL GUN",
+		"type": "artillery"
+	},
+	{
+		"attack": 4,
+		"attributes": [
+			"blitz"
+		],
+		"defense": 2,
+		"faction": "Germany",
+		"id": 212,
+		"image": "komet.jpg",
+		"kredits": 6,
+		"operationCost": 0,
+		"rarity": "Elite",
+		"text": "At end of your turn, return KOMET to your hand.",
+		"title": "KOMET",
+		"type": "fighter"
+	},
+	{
+		"attack": 6,
+		"attributes": [
+			"heavyArmor1"
+		],
+		"defense": 6,
+		"faction": "Britain",
+		"id": 213,
+		"image": "a34_comet.jpg",
+		"kredits": 6,
+		"operationCost": 2,
+		"rarity": "Elite",
+		"text": "When A34 COMET deals damage to enemy HQ, draw a card.",
+		"title": "A34 COMET",
+		"type": "tank"
+	},
+	{
+		"attack": 2,
+		"attributes": [
+			"smokescreen"
+		],
+		"defense": 1,
+		"faction": "Britain",
+		"id": 214,
+		"image": "no_10_commando.jpg",
+		"kredits": 2,
+		"operationCost": 1,
+		"rarity": "Limited",
+		"text": "Whenever you give an order, deal 1 damage to a random enemy.",
+		"title": "No. 10 COMMANDO",
+		"type": "infantry"
+	},
+	{
+		"attack": 4,
+		"defense": 6,
+		"faction": "USA",
+		"id": 215,
+		"image": "corsair_f4u1c.jpg",
+		"kredits": 5,
+		"operationCost": 2,
+		"rarity": "Standard",
+		"text": "",
+		"title": "CORSAIR F4U-1C",
+		"type": "fighter"
+	},
+	{
+		"attack": 4,
+		"defense": 4,
+		"faction": "USA",
+		"id": 216,
+		"image": "corsair_f4u1d.jpg",
+		"kredits": 6,
+		"operationCost": 2,
+		"rarity": "Special",
+		"text": "Destruction: Destroy random enemy unit.",
+		"title": "CORSAIR F4U-1D",
+		"type": "fighter"
+	},
+	{
+		"attack": 3,
+		"attributes": [
+			"blitz",
+			"smokescreen"
+		],
+		"defense": 3,
+		"faction": "Soviet",
+		"id": 217,
+		"image": "4th_kuban_cossacks.jpg",
+		"kredits": 3,
+		"operationCost": 0,
+		"rarity": "Elite",
+		"text": "",
+		"title": "4th KUBAN COSSACKS",
+		"type": "infantry"
+	},
+	{
+		"attack": 2,
+		"attributes": [
+			"smokescreen"
+		],
+		"defense": 2,
+		"faction": "Britain",
+		"id": 218,
+		"image": "crusader_mk_ii.jpg",
+		"kredits": 3,
+		"operationCost": 1,
+		"rarity": "Special",
+		"text": "When you play a British order, draw a card.",
+		"title": "CRUSADER Mk II",
+		"type": "tank"
+	},
+	{
+		"attack": 1,
+		"attributes": [
+			"fury"
+		],
+		"defense": 3,
+		"faction": "Britain",
+		"id": 219,
+		"image": "humber_mk_ii.jpg",
+		"kredits": 1,
+		"operationCost": 1,
+		"rarity": "Standard",
+		"text": "",
+		"title": "HUMBER Mk II",
+		"type": "tank"
+	},
+	{
+		"attack": 1,
+		"defense": 4,
+		"faction": "Japan",
+		"id": 220,
+		"image": "m6a1_seiran.jpg",
+		"kredits": 4,
+		"operationCost": 2,
+		"rarity": "Special",
+		"text": "Your orders deal +1 damage.",
+		"title": "M6A1 SEIRAN",
+		"type": "bomber"
+	},
+	{
+		"attack": 5,
+		"defense": 4,
+		"faction": "Germany",
+		"id": 221,
+		"image": "dornier_do_217.jpg",
+		"kredits": 6,
+		"operationCost": 2,
+		"rarity": "Special",
+		"text": "When DORNIER DO 217 destroys a unit, the enemy must discard a card at random.",
+		"title": "DORNIER DO 217",
+		"type": "bomber"
+	},
+	{
+		"attack": 3,
+		"defense": 3,
+		"faction": "USA",
+		"id": 222,
+		"image": "f4f_wildcat.jpg",
+		"kredits": 3,
+		"operationCost": 2,
+		"rarity": "Standard",
+		"text": "Your HQ has Smokescreen while F4F WILDCAT is on the battlefield.",
+		"title": "F4F WILDCAT",
+		"type": "fighter"
+	},
+	{
+		"attack": 3,
+		"attributes": [
+			"blitz",
+			"fury"
+		],
+		"defense": 2,
+		"faction": "Germany",
+		"id": 223,
+		"image": "8_fallschirmjger.jpg",
+		"kredits": 2,
+		"operationCost": 1,
+		"rarity": "Elite",
+		"text": "",
+		"title": "8. FALLSCHIRMJÄGER",
+		"type": "infantry"
+	},
+	{
+		"attack": 1,
+		"attributes": [
+			"blitz"
+		],
+		"defense": 2,
+		"faction": "Germany",
+		"id": 224,
+		"image": "3_7cm_flak_37_.jpg",
+		"kredits": 2,
+		"operationCost": 0,
+		"rarity": "Standard",
+		"text": "",
+		"title": "3.7cm FLAK 37 ",
+		"type": "tank"
+	},
+	{
+		"attack": 6,
+		"defense": 5,
+		"faction": "Germany",
+		"id": 225,
+		"image": "fw_190_a.jpg",
+		"kredits": 6,
+		"operationCost": 2,
+		"rarity": "Standard",
+		"text": "",
+		"title": "FW 190 A",
+		"type": "fighter"
+	},
+	{
+		"attack": 3,
+		"defense": 1,
+		"faction": "Japan",
+		"id": 355,
+		"image": "g4m1_betty.jpg",
+		"kredits": 2,
+		"operationCost": 1,
+		"rarity": "Standard",
+		"text": "Deployment: Discard a random card from your hand.",
+		"title": "G4M1 BETTY",
+		"type": "bomber"
+	},
+	{
+		"attack": 1,
+		"defense": 3,
+		"faction": "Britain",
+		"id": 226,
+		"image": "gladiator_mk_i.jpg",
+		"kredits": 1,
+		"operationCost": 1,
+		"rarity": "Limited",
+		"text": "",
+		"title": "GLADIATOR Mk I",
+		"type": "fighter"
+	},
+	{
+		"attack": 1,
+		"attributes": [
+			"OnlySpawnable"
+		],
+		"defense": 1,
+		"faction": "Britain",
+		"id": 227,
+		"image": "gladiator_escort.jpg",
+		"kredits": 1,
+		"operationCost": 1,
+		"rarity": "Limited",
+		"text": "",
+		"title": "GLADIATOR ESCORT",
+		"type": "fighter"
+	},
+	{
+		"attack": 3,
+		"defense": 6,
+		"faction": "Germany",
+		"id": 228,
+		"image": "980_volksgrenadier.jpg",
+		"kredits": 3,
+		"operationCost": 1,
+		"rarity": "Standard",
+		"text": "",
+		"title": "980. VOLKSGRENADIER",
+		"type": "infantry"
+	},
+	{
+		"attack": 5,
+		"attributes": [
+			"guard"
+		],
+		"defense": 9,
+		"faction": "Britain",
+		"id": 229,
+		"image": "grenadier_guards.jpg",
+		"kredits": 6,
+		"operationCost": 1,
+		"rarity": "Special",
+		"text": "",
+		"title": "GRENADIER GUARDS",
+		"type": "infantry"
+	},
+	{
+		"attack": 1,
+		"defense": 2,
+		"faction": "USA",
+		"id": 230,
+		"image": "f6f_hellcat.jpg",
+		"kredits": 2,
+		"operationCost": 1,
+		"rarity": "Elite",
+		"text": "When F6F HELLCAT attacks it gets +1+1.",
+		"title": "F6F HELLCAT",
+		"type": "fighter"
+	},
+	{
+		"attack": 3,
+		"attributes": [
+			"blitz"
+		],
+		"defense": 3,
+		"faction": "Britain",
+		"id": 231,
+		"image": "hampden_mk_i.jpg",
+		"kredits": 5,
+		"operationCost": 2,
+		"rarity": "Limited",
+		"text": "",
+		"title": "HAMPDEN Mk I",
+		"type": "bomber"
+	},
+	{
+		"attack": 3,
+		"defense": 3,
+		"faction": "Japan",
+		"id": 232,
+		"image": "ki43_hayabusa.jpg",
+		"kredits": 3,
+		"operationCost": 2,
+		"rarity": "Standard",
+		"text": "Destruction: Deal 2 damage to the enemy HQ.",
+		"title": "Ki-43 HAYABUSA",
+		"type": "fighter"
+	},
+	{
+		"attack": 1,
+		"attributes": [
+			"fury"
+		],
+		"defense": 3,
+		"faction": "Germany",
+		"id": 233,
+		"image": "henschel_hs_123.jpg",
+		"kredits": 2,
+		"operationCost": 1,
+		"rarity": "Special",
+		"text": "",
+		"title": "HENSCHEL HS 123",
+		"type": "bomber"
+	},
+	{
+		"attack": 3,
+		"defense": 1,
+		"faction": "Japan",
+		"id": 234,
+		"image": "himeji_regiment.jpg",
+		"kredits": 1,
+		"operationCost": 1,
+		"rarity": "Standard",
+		"text": "",
+		"title": "HIMEJI REGIMENT",
+		"type": "infantry"
+	},
+	{
+		"attack": 3,
+		"defense": 4,
+		"faction": "Britain",
+		"id": 235,
+		"image": "hudson_mk_iii.jpg",
+		"kredits": 4,
+		"operationCost": 3,
+		"rarity": "Special",
+		"text": "Units damaged by Hudson get pinned.",
+		"title": "HUDSON Mk III",
+		"type": "bomber"
+	},
+	{
+		"attack": 3,
+		"attributes": [
+			"blitz"
+		],
+		"defense": 2,
+		"faction": "Britain",
+		"id": 236,
+		"image": "hurricane_mk_i.jpg",
+		"kredits": 3,
+		"operationCost": 2,
+		"rarity": "Standard",
+		"text": "",
+		"title": "HURRICANE Mk I",
+		"type": "fighter"
+	},
+	{
+		"attack": 3,
+		"attributes": [
+			"fury"
+		],
+		"defense": 3,
+		"faction": "Britain",
+		"id": 237,
+		"image": "hurricane_mk_iia.jpg",
+		"kredits": 4,
+		"operationCost": 2,
+		"rarity": "Limited",
+		"text": "",
+		"title": "HURRICANE Mk IIA",
+		"type": "fighter"
+	},
+	{
+		"attack": 4,
+		"attributes": [
+			"heavyArmor2"
+		],
+		"defense": 6,
+		"faction": "Soviet",
+		"id": 238,
+		"image": "isu152.jpg",
+		"kredits": 7,
+		"operationCost": 2,
+		"rarity": "Elite",
+		"text": "Deals double damage against the enemy HQ.",
+		"title": "ISU-152",
+		"type": "tank"
+	},
+	{
+		"attack": 8,
+		"attributes": [
+			"heavyArmor2"
+		],
+		"defense": 8,
+		"faction": "Soviet",
+		"id": 239,
+		"image": "iosef_stalin_ii.jpg",
+		"kredits": 10,
+		"operationCost": 1,
+		"rarity": "Elite",
+		"text": "When this unit is sent back to hand, add a copy to your support line.",
+		"title": "IOSEF STALIN II",
+		"type": "tank"
+	},
+	{
+		"attack": 1,
+		"can_create": [
+			"i16_ishak"
+		],
+		"defense": 3,
+		"faction": "Soviet",
+		"id": 240,
+		"image": "i15_chaika.jpg",
+		"kredits": 2,
+		"operationCost": 1,
+		"rarity": "Special",
+		"text": "Destruction: Add a I-16 ISHAK fighter in your support line.",
+		"title": "I-15 CHAIKA",
+		"type": "fighter"
+	},
+	{
+		"attack": 3,
+		"defense": 2,
+		"faction": "Soviet",
+		"id": 241,
+		"image": "i16_ishak.jpg",
+		"kredits": 2,
+		"operationCost": 2,
+		"rarity": "Standard",
+		"text": "",
+		"title": "I-16 ISHAK",
+		"type": "fighter"
+	},
+	{
+		"attack": 3,
+		"defense": 3,
+		"faction": "Japan",
+		"id": 242,
+		"image": "j1n1_gekko.jpg",
+		"kredits": 6,
+		"operationCost": 2,
+		"rarity": "Standard",
+		"text": "Your orders deal +1 damage.",
+		"title": "J1N1 GEKKO",
+		"type": "fighter"
+	},
+	{
+		"attack": 9,
+		"defense": 9,
+		"faction": "Japan",
+		"id": 243,
+		"image": "jade_division.jpg",
+		"kredits": 6,
+		"operationCost": 3,
+		"rarity": "Elite",
+		"text": "Your other Japanese units have +1 attack.",
+		"title": "JADE DIVISION",
+		"type": "infantry"
+	},
+	{
+		"attack": 5,
+		"attributes": [
+			"ambush"
+		],
+		"defense": 3,
+		"faction": "Germany",
+		"id": 244,
+		"image": "jagdpanther.jpg",
+		"kredits": 4,
+		"operationCost": 2,
+		"rarity": "Standard",
+		"text": "",
+		"title": "JAGDPANTHER",
+		"type": "tank"
+	},
+	{
+		"attack": 5,
+		"attributes": [
+			"fury"
+		],
+		"defense": 6,
+		"faction": "Germany",
+		"id": 245,
+		"image": "junkers_ju_188_e.jpg",
+		"kredits": 7,
+		"operationCost": 3,
+		"rarity": "Special",
+		"text": "",
+		"title": "JUNKERS JU 188 E",
+		"type": "bomber"
+	},
+	{
+		"attack": 4,
+		"defense": 5,
+		"faction": "Germany",
+		"id": 246,
+		"image": "junkers_ju_88_a.jpg",
+		"kredits": 5,
+		"operationCost": 2,
+		"rarity": "Limited",
+		"text": "",
+		"title": "JUNKERS JU 88 A",
+		"type": "bomber"
+	},
+	{
+		"attack": 3,
+		"defense": 2,
+		"faction": "Germany",
+		"id": 247,
+		"image": "ju_87_b_stuka.jpg",
+		"kredits": 4,
+		"operationCost": 2,
+		"rarity": "Standard",
+		"text": "The enemy must discard a card each time Stuka deals damage to their HQ.",
+		"title": "JU 87 B STUKA",
+		"type": "bomber"
+	},
+	{
+		"attack": 1,
+		"attributes": [
+			"blitz"
+		],
+		"defense": 1,
+		"faction": "Soviet",
+		"id": 248,
+		"image": "katyusha.jpg",
+		"kredits": 2,
+		"operationCost": 0,
+		"rarity": "Limited",
+		"text": "When this units attacks, it deals 0-1 additional damage.",
+		"title": "KATYUSHA",
+		"type": "artillery"
+	},
+	{
+		"attack": 2,
+		"attributes": [
+			"ambush"
+		],
+		"defense": 2,
+		"faction": "Japan",
+		"id": 249,
+		"image": "ki27_nate.jpg",
+		"kredits": 3,
+		"operationCost": 1,
+		"rarity": "Special",
+		"text": "Destruction: Add a random Japanese unit that costs 1K or less to your hand.",
+		"title": "Ki-27 NATE",
+		"type": "fighter"
+	},
+	{
+		"attack": 4,
+		"attributes": [
+			"ambush"
+		],
+		"defense": 2,
+		"faction": "Japan",
+		"id": 250,
+		"image": "ki44_tojo.jpg",
+		"kredits": 4,
+		"operationCost": 2,
+		"rarity": "Limited",
+		"text": "Deployment: Deal 1 damage to all enemy air units.",
+		"title": "Ki-44 TOJO",
+		"type": "fighter"
+	},
+	{
+		"attack": 5,
+		"attributes": [
+			"blitz"
+		],
+		"defense": 4,
+		"faction": "Japan",
+		"id": 251,
+		"image": "ki61_hien.jpg",
+		"kredits": 5,
+		"operationCost": 3,
+		"rarity": "Standard",
+		"text": "",
+		"title": "Ki-61 HIEN",
+		"type": "fighter"
+	},
+	{
+		"attack": 7,
+		"attributes": [
+			"fury"
+		],
+		"defense": 5,
+		"faction": "Japan",
+		"id": 252,
+		"image": "ki84_frank.jpg",
+		"kredits": 5,
+		"operationCost": 3,
+		"rarity": "Limited",
+		"text": "Cannot attack the enemy HQ.",
+		"title": "Ki-84 FRANK",
+		"type": "fighter"
+	},
+	{
+		"attack": 4,
+		"attributes": [
+			"blitz"
+		],
+		"defense": 1,
+		"faction": "Japan",
+		"id": 253,
+		"image": "kumamoto_regiment.jpg",
+		"kredits": 3,
+		"operationCost": 0,
+		"rarity": "Limited",
+		"text": "",
+		"title": "KUMAMOTO REGIMENT",
+		"type": "infantry"
+	},
+	{
+		"attack": 4,
+		"attributes": [
+			"guard",
+			"heavyArmor1"
+		],
+		"defense": 6,
+		"faction": "Soviet",
+		"id": 254,
+		"image": "kv1_1939.jpg",
+		"kredits": 6,
+		"operationCost": 2,
+		"rarity": "Special",
+		"text": "",
+		"title": "KV-1 1939",
+		"type": "tank"
+	},
+	{
+		"attack": 3,
+		"attributes": [
+			"heavyArmor1"
+		],
+		"defense": 6,
+		"faction": "Soviet",
+		"id": 255,
+		"image": "kv1_1941.jpg",
+		"kredits": 6,
+		"operationCost": 2,
+		"rarity": "Elite",
+		"text": "When the opponent draws a card, deal 2 damage to the enemy HQ.",
+		"title": "KV-1 1941",
+		"type": "tank"
+	},
+	{
+		"attack": 7,
+		"attributes": [
+			"blitz"
+		],
+		"defense": 4,
+		"faction": "Britain",
+		"id": 256,
+		"image": "lancaster_mk_i.jpg",
+		"kredits": 9,
+		"operationCost": 3,
+		"rarity": "Limited",
+		"text": "",
+		"title": "LANCASTER Mk I",
+		"type": "bomber"
+	},
+	{
+		"attack": 5,
+		"attributes": [
+			"blitz"
+		],
+		"defense": 4,
+		"faction": "Britain",
+		"id": 257,
+		"image": "lancaster_b_iii.jpg",
+		"kredits": 7,
+		"operationCost": 3,
+		"rarity": "Elite",
+		"text": "When LANCASTER B.III damages the enemy HQ, cards in enemy hand cost +2 kredits.",
+		"title": "LANCASTER B.III",
+		"type": "bomber"
+	},
+	{
+		"attack": 4,
+		"defense": 4,
+		"faction": "Soviet",
+		"id": 258,
+		"image": "la5.jpg",
+		"kredits": 4,
+		"operationCost": 2,
+		"rarity": "Limited",
+		"text": "",
+		"title": "LA-5",
+		"type": "fighter"
+	},
+	{
+		"attack": 1,
+		"attributes": [
+			"smokescreen"
+		],
+		"defense": 1,
+		"faction": "Soviet",
+		"id": 259,
+		"image": "37_mm_antiaircraft_gun.jpg",
+		"kredits": 1,
+		"operationCost": 1,
+		"rarity": "Standard",
+		"text": "Enemy air units cost +2 to operate.",
+		"title": "37 mm ANTI-AIRCRAFT GUN",
+		"type": "artillery"
+	},
+	{
+		"attack": 1,
+		"attributes": [
+			"OnlySpawnable"
+		],
+		"defense": 1,
+		"faction": "Soviet",
+		"id": 260,
+		"image": "light_infantry.jpg",
+		"kredits": 1,
+		"operationCost": 0,
+		"rarity": "Standard",
+		"text": "",
+		"title": "LIGHT INFANTRY",
+		"type": "infantry"
+	},
+	{
+		"attack": 2,
+		"attributes": [
+			"OnlySpawnable",
+			"smokescreen"
+		],
+		"defense": 2,
+		"faction": "Japan",
+		"id": 261,
+		"image": "long_range_aichi_d3a.jpg",
+		"kredits": 2,
+		"operationCost": 1,
+		"rarity": "Elite",
+		"text": "Destruction: Remove ADMIRAL YAMAMOTO from your deck.",
+		"title": "LONG RANGE AICHI D3A",
+		"type": "bomber"
+	},
+	{
+		"attack": 2,
+		"defense": 2,
+		"faction": "USA",
+		"id": 262,
+		"image": "m16_halftrack.jpg",
+		"kredits": 3,
+		"operationCost": 1,
+		"rarity": "Limited",
+		"text": "Deployment: An enemy air or infantry unit must Retreat.",
+		"title": "M16 HALF-TRACK",
+		"type": "tank"
+	},
+	{
+		"attack": 4,
+		"attributes": [
+			"blitz"
+		],
+		"defense": 2,
+		"faction": "USA",
+		"id": 263,
+		"image": "m18_hellcat.jpg",
+		"kredits": 3,
+		"operationCost": 1,
+		"rarity": "Special",
+		"text": "Deals double damage against tanks.",
+		"title": "M18 HELLCAT",
+		"type": "tank"
+	},
+	{
+		"attack": 2,
+		"defense": 3,
+		"faction": "USA",
+		"id": 264,
+		"image": "m1_155mm_long_tom.jpg",
+		"kredits": 5,
+		"operationCost": 2,
+		"rarity": "Elite",
+		"text": "When LONG TOM attacks, distribute 3 damage between random enemies.",
+		"title": "M1 155mm LONG TOM",
+		"type": "artillery"
+	},
+	{
+		"attack": 4,
+		"defense": 2,
+		"faction": "USA",
+		"id": 265,
+		"image": "m24_chaffee.jpg",
+		"kredits": 3,
+		"operationCost": 2,
+		"rarity": "Elite",
+		"text": "When this unit is moved to the frontline, add another one at its side.",
+		"title": "M24 CHAFFEE",
+		"type": "tank"
+	},
+	{
+		"attack": 8,
+		"attributes": [
+			"heavyArmor2"
+		],
+		"defense": 8,
+		"faction": "USA",
+		"id": 266,
+		"image": "m26_pershing.jpg",
+		"kredits": 10,
+		"operationCost": 3,
+		"rarity": "Elite",
+		"text": "While M26 PERSHING is in the frontline, your HQ cannot go below 1 defense.",
+		"title": "M26 PERSHING",
+		"type": "tank"
+	},
+	{
+		"attack": 6,
+		"defense": 4,
+		"faction": "USA",
+		"id": 267,
+		"image": "m36_jackson.jpg",
+		"kredits": 5,
+		"operationCost": 1,
+		"rarity": "Limited",
+		"text": "If the enemy discards M36 JACKSON from your hand, put it on the battlefield instead.",
+		"title": "M36 JACKSON",
+		"type": "tank"
+	},
+	{
+		"attack": 2,
+		"defense": 4,
+		"faction": "USA",
+		"id": 268,
+		"image": "m5_stuart.jpg",
+		"kredits": 3,
+		"operationCost": 1,
+		"rarity": "Standard",
+		"text": "Has +3 attack against infantry.",
+		"title": "M5 STUART",
+		"type": "tank"
+	},
+	{
+		"attack": 4,
+		"defense": 4,
+		"faction": "USA",
+		"id": 269,
+		"image": "m4_sherman.jpg",
+		"kredits": 4,
+		"operationCost": 2,
+		"rarity": "Standard",
+		"text": "Deployment: If you control the frontline, draw a card.",
+		"title": "M4 SHERMAN",
+		"type": "tank"
+	},
+	{
+		"attack": 3,
+		"defense": 4,
+		"faction": "USA",
+		"id": 270,
+		"image": "m4a3r3_zippo.jpg",
+		"kredits": 4,
+		"operationCost": 2,
+		"rarity": "Limited",
+		"text": "Has +3 attack against infantry and enemy HQ.",
+		"title": "M4A3R3 ZIPPO",
+		"type": "tank"
+	},
+	{
+		"attack": 1,
+		"defense": 2,
+		"faction": "USA",
+		"id": 271,
+		"image": "m7_priest.jpg",
+		"kredits": 3,
+		"operationCost": 1,
+		"rarity": "Limited",
+		"text": "Deployment: Gains +2+1 if you control the frontline.",
+		"title": "M7 PRIEST",
+		"type": "artillery"
+	},
+	{
+		"attack": 1,
+		"attributes": [
+			"blitz"
+		],
+		"defense": 3,
+		"faction": "USA",
+		"id": 272,
+		"image": "m8_greyhound.jpg",
+		"kredits": 1,
+		"operationCost": 1,
+		"rarity": "Standard",
+		"text": "When this unit is in the frontline, friendly units in the support line have +1 attack.",
+		"title": "M8 GREYHOUND",
+		"type": "tank"
+	},
+	{
+		"attack": 2,
+		"defense": 3,
+		"faction": "Germany",
+		"id": 273,
+		"image": "marder_iii_h.jpg",
+		"kredits": 4,
+		"operationCost": 1,
+		"rarity": "Special",
+		"text": "MARDER III H gets +1 attack each time another unit is destroyed.",
+		"title": "MARDER III H",
+		"type": "tank"
+	},
+	{
+		"attack": 5,
+		"attributes": [
+			"smokescreen"
+		],
+		"defense": 5,
+		"faction": "USA",
+		"id": 274,
+		"image": "3rd_marine_regiment.jpg",
+		"kredits": 3,
+		"operationCost": 2,
+		"rarity": "Standard",
+		"text": "",
+		"title": "3rd MARINE REGIMENT",
+		"type": "infantry"
+	},
+	{
+		"attack": 3,
+		"attributes": [
+			"heavyArmor1"
+		],
+		"defense": 5,
+		"faction": "Britain",
+		"id": 275,
+		"image": "matilda_mk_ii.jpg",
+		"kredits": 4,
+		"operationCost": 2,
+		"rarity": "Standard",
+		"text": "Units damaged by Mathilda Mk II get Pinned.",
+		"title": "MATILDA Mk II",
+		"type": "tank"
+	},
+	{
+		"attack": 8,
+		"defense": 4,
+		"faction": "Germany",
+		"id": 276,
+		"image": "me_262a_schwalbe.jpg",
+		"kredits": 8,
+		"operationCost": 3,
+		"rarity": "Elite",
+		"text": "Deployment: All enemy air units must retreat. ",
+		"title": "ME 262A SCHWALBE",
+		"type": "fighter"
+	},
+	{
+		"attack": 3,
+		"defense": 4,
+		"faction": "Germany",
+		"id": 277,
+		"image": "me_bf_109_e.jpg",
+		"kredits": 3,
+		"operationCost": 2,
+		"rarity": "Standard",
+		"text": "",
+		"title": "ME BF 109 E",
+		"type": "fighter"
+	},
+	{
+		"attack": 3,
+		"defense": 3,
+		"faction": "Germany",
+		"id": 278,
+		"image": "me_bf_110.jpg",
+		"kredits": 4,
+		"operationCost": 2,
+		"rarity": "Limited",
+		"text": "At end of your turn, ME BF 110 gets +1+1 if you control the frontline.",
+		"title": "ME BF 110",
+		"type": "fighter"
+	},
+	{
+		"attack": 2,
+		"attributes": [
+			"blitz"
+		],
+		"defense": 3,
+		"faction": "Japan",
+		"id": 279,
+		"image": "mito_regiment.jpg",
+		"kredits": 3,
+		"operationCost": 1,
+		"rarity": "Standard",
+		"text": "Destruction: Deal 2 damage to the enemy HQ.",
+		"title": "MITO REGIMENT",
+		"type": "infantry"
+	},
+	{
+		"attack": 1,
+		"defense": 1,
+		"faction": "Japan",
+		"id": 280,
+		"image": "model_25.jpg",
+		"kredits": 1,
+		"operationCost": 1,
+		"rarity": "Standard",
+		"text": "Deployment: Give a friendly infantry +2 attack until end of turn.",
+		"title": "MODEL 25",
+		"type": "tank"
+	},
+	{
+		"attack": 4,
+		"defense": 4,
+		"faction": "Britain",
+		"id": 281,
+		"image": "mosquito_fb_mk_vi.jpg",
+		"kredits": 5,
+		"operationCost": 2,
+		"rarity": "Elite",
+		"text": "Deployment: Deal 3 damage to an enemy unit.",
+		"title": "MOSQUITO FB Mk VI",
+		"type": "fighter"
+	},
+	{
+		"attack": 3,
+		"defense": 3,
+		"faction": "Japan",
+		"id": 282,
+		"image": "b5n_kate.jpg",
+		"kredits": 4,
+		"operationCost": 2,
+		"rarity": "Limited",
+		"text": "Deployment: Has Blitz if enemy has no air units.",
+		"title": "B5N KATE",
+		"type": "bomber"
+	},
+	{
+		"attack": 2,
+		"defense": 2,
+		"faction": "Germany",
+		"id": 283,
+		"image": "nebelwerfer_42.jpg",
+		"kredits": 3,
+		"operationCost": 1,
+		"rarity": "Limited",
+		"text": "Deployment: Deal 1 damage to an enemy unit.",
+		"title": "NEBELWERFER 42",
+		"type": "artillery"
+	},
+	{
+		"attack": 5,
+		"defense": 4,
+		"faction": "Japan",
+		"id": 284,
+		"image": "p1y_ginga.jpg",
+		"kredits": 6,
+		"operationCost": 2,
+		"rarity": "Limited",
+		"text": "Deployment: Deal 1 damage to an enemy ground unit and adjacent targets.",
+		"title": "P1Y GINGA",
+		"type": "bomber"
+	},
+	{
+		"attack": 3,
+		"defense": 5,
+		"faction": "USA",
+		"id": 285,
+		"image": "p38_lightning.jpg",
+		"kredits": 4,
+		"operationCost": 2,
+		"rarity": "Limited",
+		"text": "Your bomber units have +1 attack.",
+		"title": "P-38 LIGHTNING",
+		"type": "fighter"
+	},
+	{
+		"attack": 3,
+		"defense": 4,
+		"faction": "Britain",
+		"id": 286,
+		"image": "raaf_lightning_f4.jpg",
+		"kredits": 5,
+		"operationCost": 2,
+		"rarity": "Special",
+		"text": "Deployment: Send target enemy unit to owner's hand.",
+		"title": "RAAF LIGHTNING F-4",
+		"type": "fighter"
+	},
+	{
+		"attack": 4,
+		"defense": 4,
+		"faction": "USA",
+		"id": 287,
+		"image": "p40_n5.jpg",
+		"kredits": 4,
+		"operationCost": 2,
+		"rarity": "Elite",
+		"text": "Units deployed by the enemy have +2 operation cost.",
+		"title": "P-40 N-5",
+		"type": "fighter"
+	},
+	{
+		"attack": 2,
+		"defense": 4,
+		"faction": "Britain",
+		"id": 288,
+		"image": "p40_kittyhawk.jpg",
+		"kredits": 3,
+		"operationCost": 2,
+		"rarity": "Elite",
+		"text": "Deployment: Deal 2 damage to enemy ground target.",
+		"title": "P-40 KITTYHAWK",
+		"type": "fighter"
+	},
+	{
+		"attack": 2,
+		"defense": 3,
+		"faction": "USA",
+		"id": 289,
+		"image": "p40_warhawk.jpg",
+		"kredits": 3,
+		"operationCost": 2,
+		"rarity": "Standard",
+		"text": "Has +3 attack against ground units.",
+		"title": "P-40 WARHAWK",
+		"type": "fighter"
+	},
+	{
+		"attack": 3,
+		"defense": 5,
+		"faction": "USA",
+		"id": 290,
+		"image": "p47d_thunderbolt.jpg",
+		"kredits": 5,
+		"operationCost": 2,
+		"rarity": "Special",
+		"text": "When P-47D THUNDERBOLT destroys a unit in combat, draw a card.",
+		"title": "P-47D THUNDERBOLT",
+		"type": "fighter"
+	},
+	{
+		"attack": 6,
+		"defense": 4,
+		"faction": "USA",
+		"id": 291,
+		"image": "p51_mustang.jpg",
+		"kredits": 6,
+		"operationCost": 2,
+		"rarity": "Limited",
+		"text": "Deployment: Enemy air units cost +1 to operate.",
+		"title": "P-51 MUSTANG",
+		"type": "fighter"
+	},
+	{
+		"attack": 1,
+		"defense": 1,
+		"faction": "Germany",
+		"id": 292,
+		"image": "pak_36.jpg",
+		"kredits": 1,
+		"operationCost": 1,
+		"rarity": "Standard",
+		"text": "When your enemy deploys a tank unit, deal 1 damage to it.",
+		"title": "PAK 36",
+		"type": "artillery"
+	},
+	{
+		"attack": 1,
+		"attributes": [
+			"ambush"
+		],
+		"defense": 3,
+		"faction": "Germany",
+		"id": 293,
+		"image": "pak_38.jpg",
+		"kredits": 3,
+		"operationCost": 1,
+		"rarity": "Standard",
+		"text": "Deals triple damage to tank units.",
+		"title": "PAK 38",
+		"type": "artillery"
+	},
+	{
+		"attack": 7,
+		"attributes": [
+			"heavyArmor1"
+		],
+		"defense": 5,
+		"faction": "Germany",
+		"id": 294,
+		"image": "panther_g.jpg",
+		"kredits": 5,
+		"operationCost": 2,
+		"rarity": "Special",
+		"text": "",
+		"title": "PANTHER G",
+		"type": "tank"
+	},
+	{
+		"attack": 3,
+		"defense": 2,
+		"faction": "Germany",
+		"id": 295,
+		"image": "59_panzergrenadier.jpg",
+		"kredits": 2,
+		"operationCost": 1,
+		"rarity": "Standard",
+		"text": "59. Panzergrenadier can move and attack during the same turn.",
+		"title": "59. PANZERGRENADIER",
+		"type": "infantry"
+	},
+	{
+		"attack": 5,
+		"attributes": [
+			"heavyArmor1"
+		],
+		"defense": 9,
+		"faction": "Germany",
+		"id": 296,
+		"image": "panzerzug_61_bp42.jpg",
+		"kredits": 9,
+		"operationCost": 5,
+		"rarity": "Elite",
+		"text": "If PANZERZUG 61 BP42 is in the frontline at the end of your turn, draw 2 cards.",
+		"title": "PANZERZUG 61 BP42",
+		"type": "tank"
+	},
+	{
+		"attack": 2,
+		"attributes": [
+			"blitz"
+		],
+		"defense": 2,
+		"faction": "Germany",
+		"id": 297,
+		"image": "panzer_35t.jpg",
+		"kredits": 2,
+		"operationCost": 1,
+		"rarity": "Limited",
+		"text": "Has 0 operation cost if you control infantry unit.",
+		"title": "PANZER 35(t)",
+		"type": "tank"
+	},
+	{
+		"attack": 2,
+		"defense": 2,
+		"faction": "Germany",
+		"id": 298,
+		"image": "panzer_38t.jpg",
+		"kredits": 3,
+		"operationCost": 1,
+		"rarity": "Standard",
+		"text": "Deployment: Draw a card.",
+		"title": "PANZER 38(t)",
+		"type": "tank"
+	},
+	{
+		"attack": 3,
+		"attributes": [
+			"blitz"
+		],
+		"defense": 4,
+		"faction": "Germany",
+		"id": 299,
+		"image": "panzer_iiil.jpg",
+		"kredits": 3,
+		"operationCost": 2,
+		"rarity": "Elite",
+		"text": " Has +1 attack if you control infantry or air unit. +3 attack if you control both.",
+		"title": "PANZER III-L",
+		"type": "tank"
+	},
+	{
+		"attack": 4,
+		"attributes": [
+			"blitz"
+		],
+		"defense": 5,
+		"faction": "Germany",
+		"id": 300,
+		"image": "panzer_iiij.jpg",
+		"kredits": 4,
+		"operationCost": 2,
+		"rarity": "Limited",
+		"text": "",
+		"title": "PANZER III-J",
+		"type": "tank"
+	},
+	{
+		"attack": 4,
+		"attributes": [
+			"blitz",
+			"smokescreen"
+		],
+		"defense": 4,
+		"faction": "Germany",
+		"id": 301,
+		"image": "panzer_iiie.jpg",
+		"kredits": 4,
+		"operationCost": 2,
+		"rarity": "Special",
+		"text": "Other friendly tank units with Blitz have +1 attack.",
+		"title": "PANZER III-E",
+		"type": "tank"
+	},
+	{
+		"attack": 1,
+		"attributes": [
+			"blitz",
+			"smokescreen"
+		],
+		"defense": 3,
+		"faction": "Germany",
+		"id": 302,
+		"image": "panzer_iia.jpg",
+		"kredits": 1,
+		"operationCost": 1,
+		"rarity": "Standard",
+		"text": "",
+		"title": "PANZER II-A",
+		"type": "tank"
+	},
+	{
+		"attack": 5,
+		"defense": 5,
+		"faction": "Germany",
+		"id": 303,
+		"image": "panzer_iv_f2.jpg",
+		"kredits": 6,
+		"operationCost": 2,
+		"rarity": "Limited",
+		"text": "Deployment: Target unit must retreat. If it costs 2 or less, destroy it instead.",
+		"title": "PANZER IV F2",
+		"type": "tank"
+	},
+	{
+		"attack": 5,
+		"defense": 6,
+		"faction": "Germany",
+		"id": 304,
+		"image": "panzer_ivg.jpg",
+		"kredits": 5,
+		"operationCost": 2,
+		"rarity": "Standard",
+		"text": "",
+		"title": "PANZER IV-G",
+		"type": "tank"
+	},
+	{
+		"attack": 2,
+		"defense": 2,
+		"faction": "Japan",
+		"id": 305,
+		"image": "f1m2_pete.jpg",
+		"kredits": 2,
+		"operationCost": 2,
+		"rarity": "Elite",
+		"text": "Cannot be attacked by ground units while in the support line.",
+		"title": "F1M2 PETE",
+		"type": "bomber"
+	},
+	{
+		"attack": 4,
+		"defense": 4,
+		"faction": "Soviet",
+		"id": 306,
+		"image": "petlyakov_pe2.jpg",
+		"kredits": 3,
+		"operationCost": 3,
+		"rarity": "Special",
+		"text": "",
+		"title": "PETLYAKOV PE-2",
+		"type": "bomber"
+	},
+	{
+		"attack": 1,
+		"defense": 2,
+		"faction": "Britain",
+		"id": 307,
+		"image": "qf_40mm_mk_iii.jpg",
+		"kredits": 3,
+		"operationCost": 1,
+		"rarity": "Standard",
+		"text": "Has +2 attack against air units.",
+		"title": "QF 40mm Mk III",
+		"type": "artillery"
+	},
+	{
+		"attack": 6,
+		"defense": 4,
+		"faction": "Germany",
+		"id": 308,
+		"image": "leopold.jpg",
+		"kredits": 10,
+		"operationCost": 3,
+		"rarity": "Elite",
+		"text": "Deployment: Send all enemy units to their owner's hand.",
+		"title": "LEOPOLD",
+		"type": "artillery"
+	},
+	{
+		"attack": 2,
+		"defense": 2,
+		"faction": "Britain",
+		"id": 309,
+		"image": "26_engineer_regiment.jpg",
+		"kredits": 3,
+		"operationCost": 1,
+		"rarity": "Limited",
+		"text": "Deployment: Give all other friendly units +2 defense.",
+		"title": "26 ENGINEER REGIMENT",
+		"type": "infantry"
+	},
+	{
+		"attack": 5,
+		"defense": 2,
+		"faction": "Japan",
+		"id": 310,
+		"image": "ki21_sally.jpg",
+		"kredits": 4,
+		"operationCost": 3,
+		"rarity": "Limited",
+		"text": "Deployment: If the enemy has no air units in the battlefield, give this unit Fury.",
+		"title": "Ki-21 SALLY",
+		"type": "bomber"
+	},
+	{
+		"attack": 3,
+		"attributes": [
+			"heavyArmor1"
+		],
+		"defense": 3,
+		"faction": "USA",
+		"id": 311,
+		"image": "sbd_3_dauntless.jpg",
+		"kredits": 3,
+		"operationCost": 3,
+		"rarity": "Limited",
+		"text": "",
+		"title": "SBD 3 DAUNTLESS",
+		"type": "bomber"
+	},
+	{
+		"attack": 1,
+		"attributes": [
+			"blitz"
+		],
+		"defense": 2,
+		"faction": "Germany",
+		"id": 312,
+		"image": "sd_kfz_222.jpg",
+		"kredits": 1,
+		"operationCost": 1,
+		"rarity": "Limited",
+		"text": "Adjacent ground units have +1 attack.",
+		"title": "Sd KFz 222",
+		"type": "tank"
+	},
+	{
+		"attack": 1,
+		"attributes": [
+			"smokescreen"
+		],
+		"defense": 3,
+		"faction": "Japan",
+		"id": 313,
+		"image": "sendai_regiment.jpg",
+		"kredits": 4,
+		"operationCost": 1,
+		"rarity": "Special",
+		"text": "Deployment: Remove enemy unit until SENDAI REGIMENT leaves play.",
+		"title": "SENDAI REGIMENT",
+		"type": "infantry"
+	},
+	{
+		"attack": 3,
+		"attributes": [
+			"smokescreen"
+		],
+		"defense": 3,
+		"faction": "Britain",
+		"id": 314,
+		"image": "sexton.jpg",
+		"kredits": 5,
+		"operationCost": 2,
+		"rarity": "Elite",
+		"text": "Deployment: Pin target enemy unit. At start of your turn, pin that unit again.",
+		"title": "SEXTON",
+		"type": "artillery"
+	},
+	{
+		"attack": 4,
+		"attributes": [
+			"blitz",
+			"fury",
+			"ambush"
+		],
+		"defense": 4,
+		"faction": "Japan",
+		"id": 315,
+		"image": "n1kj_shiden.jpg",
+		"kredits": 5,
+		"operationCost": 3,
+		"rarity": "Elite",
+		"text": "",
+		"title": "N1K-J SHIDEN",
+		"type": "fighter"
+	},
+	{
+		"attack": 2,
+		"defense": 2,
+		"faction": "Britain",
+		"id": 316,
+		"image": "blackburn_skua_mk_ii.jpg",
+		"kredits": 4,
+		"operationCost": 2,
+		"rarity": "Limited",
+		"text": "Deployment: Deal 1 damage to an enemy. If the enemy is a unit, pin it.",
+		"title": "BLACKBURN SKUA Mk II",
+		"type": "bomber"
+	},
+	{
+		"attack": 2,
+		"defense": 1,
+		"faction": "Japan",
+		"id": 317,
+		"image": "aichi_d3a1.jpg",
+		"kredits": 2,
+		"operationCost": 1,
+		"rarity": "Special",
+		"text": "Destruction: Deal 1 damage to the enemy HQ.",
+		"title": "AICHI D3A-1",
+		"type": "bomber"
+	},
+	{
+		"attack": 5,
+		"defense": 5,
+		"faction": "Britain",
+		"id": 318,
+		"image": "spitfire_mk_ia.jpg",
+		"kredits": 5,
+		"operationCost": 2,
+		"rarity": "Standard",
+		"text": "",
+		"title": "SPITFIRE Mk Ia",
+		"type": "fighter"
+	},
+	{
+		"attack": 6,
+		"defense": 6,
+		"faction": "Britain",
+		"id": 319,
+		"image": "spitfire_mk_v.jpg",
+		"kredits": 6,
+		"operationCost": 2,
+		"rarity": "Standard",
+		"text": "",
+		"title": "SPITFIRE Mk V",
+		"type": "fighter"
+	},
+	{
+		"attack": 6,
+		"can_create": [
+			"gladiator_escort"
+		],
+		"defense": 4,
+		"faction": "Britain",
+		"id": 320,
+		"image": "stirling_mk_i_s3.jpg",
+		"kredits": 6,
+		"operationCost": 2,
+		"rarity": "Special",
+		"text": "Deployment: Add a GLADIATOR ESCORT fighter to support line. ",
+		"title": "STIRLING Mk I S3",
+		"type": "bomber"
+	},
+	{
+		"attack": 2,
+		"attributes": [
+			"smokescreen"
+		],
+		"defense": 3,
+		"faction": "Germany",
+		"id": 321,
+		"image": "stug_iiif.jpg",
+		"kredits": 2,
+		"operationCost": 1,
+		"rarity": "Standard",
+		"text": "Deals double damage against tanks.",
+		"title": "STUG III-F",
+		"type": "tank"
+	},
+	{
+		"attack": 3,
+		"attributes": [
+			"fury"
+		],
+		"defense": 4,
+		"faction": "Germany",
+		"id": 322,
+		"image": "stug_iv.jpg",
+		"kredits": 3,
+		"operationCost": 2,
+		"rarity": "Limited",
+		"text": "Deals double damage against tanks.",
+		"title": "STUG IV",
+		"type": "tank"
+	},
+	{
+		"attack": 4,
+		"attributes": [
+			"heavyArmor1"
+		],
+		"defense": 3,
+		"faction": "Soviet",
+		"id": 323,
+		"image": "shturmovik_il2m.jpg",
+		"kredits": 5,
+		"operationCost": 2,
+		"rarity": "Standard",
+		"text": "When SHTURMOVIK destroys a unit, deal excess damage to the enemy HQ.",
+		"title": "SHTURMOVIK Il-2M",
+		"type": "bomber"
+	},
+	{
+		"attack": 4,
+		"attributes": [
+			"heavyArmor1"
+		],
+		"defense": 4,
+		"faction": "Soviet",
+		"id": 324,
+		"image": "su_152.jpg",
+		"kredits": 6,
+		"operationCost": 1,
+		"rarity": "Limited",
+		"text": "Deployment: If the enemy has a tank unit in the battlefield, give SU 152 Fury.",
+		"title": "SU 152",
+		"type": "tank"
+	},
+	{
+		"attack": 5,
+		"defense": 5,
+		"faction": "Soviet",
+		"id": 325,
+		"image": "su76m.jpg",
+		"kredits": 3,
+		"operationCost": 1,
+		"rarity": "Standard",
+		"text": "Deployment: Deal 3 damage to your HQ.",
+		"title": "SU-76M",
+		"type": "tank"
+	},
+	{
+		"attack": 1,
+		"defense": 3,
+		"faction": "Britain",
+		"id": 326,
+		"image": "swordfish_mk_i.jpg",
+		"kredits": 1,
+		"operationCost": 1,
+		"rarity": "Limited",
+		"text": "",
+		"title": "SWORDFISH Mk I",
+		"type": "bomber"
+	},
+	{
+		"attack": 1,
+		"attributes": [
+			"OnlySpawnable",
+			"blitz"
+		],
+		"defense": 3,
+		"faction": "Britain",
+		"id": 327,
+		"image": "swordfish_mk_i_b.jpg",
+		"kredits": 1,
+		"operationCost": 1,
+		"rarity": "Limited",
+		"text": "",
+		"title": "SWORDFISH Mk I",
+		"type": "bomber"
+	},
+	{
+		"attack": 1,
+		"defense": 3,
+		"faction": "USA",
+		"id": 328,
+		"image": "t19_howitzer.jpg",
+		"kredits": 2,
+		"operationCost": 1,
+		"rarity": "Standard",
+		"text": "Units attacked by T19 HOWITZER lose Guard this turn.",
+		"title": "T19 HOWITZER",
+		"type": "artillery"
+	},
+	{
+		"attack": 3,
+		"attributes": [
+			"guard"
+		],
+		"defense": 6,
+		"faction": "Japan",
+		"id": 329,
+		"image": "takasagi_regiment.jpg",
+		"kredits": 4,
+		"operationCost": 2,
+		"rarity": "Special",
+		"text": "Destruction: Your enemy discards a card.",
+		"title": "TAKASAGI REGIMENT",
+		"type": "infantry"
+	},
+	{
+		"attack": 4,
+		"defense": 4,
+		"faction": "USA",
+		"id": 330,
+		"image": "tbf1_avenger.jpg",
+		"kredits": 7,
+		"operationCost": 2,
+		"rarity": "Special",
+		"text": "Deployment: Destroy a random enemy unit with 5 or more defense.",
+		"title": "TBF-1 AVENGER",
+		"type": "bomber"
+	},
+	{
+		"attack": 8,
+		"attributes": [
+			"heavyArmor2"
+		],
+		"defense": 8,
+		"faction": "Germany",
+		"id": 331,
+		"image": "tiger_ih.jpg",
+		"kredits": 8,
+		"operationCost": 3,
+		"rarity": "Special",
+		"text": "Cannot be pinned.",
+		"title": "TIGER I-H",
+		"type": "tank"
+	},
+	{
+		"attack": 4,
+		"defense": 5,
+		"faction": "Japan",
+		"id": 332,
+		"image": "type_3_chinu.jpg",
+		"kredits": 5,
+		"operationCost": 2,
+		"rarity": "Limited",
+		"text": "Has Ambush and Guard while in your support line.",
+		"title": "TYPE 3 CHI-NU",
+		"type": "tank"
+	},
+	{
+		"attack": 3,
+		"attributes": [
+			"smokescreen"
+		],
+		"defense": 3,
+		"faction": "Japan",
+		"id": 333,
+		"image": "type_4_horo.jpg",
+		"kredits": 4,
+		"operationCost": 1,
+		"rarity": "Special",
+		"text": "",
+		"title": "TYPE 4 Ho-Ro",
+		"type": "artillery"
+	},
+	{
+		"attack": 1,
+		"defense": 3,
+		"faction": "Japan",
+		"id": 334,
+		"image": "type_88_aa_gun.jpg",
+		"kredits": 2,
+		"operationCost": 1,
+		"rarity": "Standard",
+		"text": "Air units that attack or are attacked by TYPE 88 AA GUN are pinned.",
+		"title": "TYPE 88 AA GUN",
+		"type": "artillery"
+	},
+	{
+		"attack": 4,
+		"attributes": [
+			"smokescreen"
+		],
+		"defense": 1,
+		"faction": "Japan",
+		"id": 335,
+		"image": "type_89_chiro.jpg",
+		"kredits": 3,
+		"operationCost": 1,
+		"rarity": "Limited",
+		"text": "",
+		"title": "TYPE 89 Chi-Ro",
+		"type": "tank"
+	},
+	{
+		"attack": 1,
+		"defense": 1,
+		"faction": "Japan",
+		"id": 336,
+		"image": "type_93.jpg",
+		"kredits": 1,
+		"operationCost": 1,
+		"rarity": "Limited",
+		"text": "Friendly units have +1 attack.",
+		"title": "TYPE 93",
+		"type": "tank"
+	},
+	{
+		"attack": 2,
+		"attributes": [
+			"smokescreen"
+		],
+		"defense": 2,
+		"faction": "Japan",
+		"id": 337,
+		"image": "type_95_hago.jpg",
+		"kredits": 2,
+		"operationCost": 1,
+		"rarity": "Standard",
+		"text": "Has +2 attack against infantry.",
+		"title": "TYPE 95 Ha-Go",
+		"type": "tank"
+	},
+	{
+		"attack": 2,
+		"defense": 2,
+		"faction": "Japan",
+		"id": 338,
+		"image": "type_96_25mm_aa_gun.jpg",
+		"kredits": 4,
+		"operationCost": 1,
+		"rarity": "Elite",
+		"text": "Enemy air units enter the battlefield with defense of 1. Destruction: Draw a card.",
+		"title": "TYPE 96 25mm AA GUN",
+		"type": "artillery"
+	},
+	{
+		"attack": 3,
+		"defense": 3,
+		"faction": "Japan",
+		"id": 339,
+		"image": "type_97_chiha.jpg",
+		"kredits": 3,
+		"operationCost": 1,
+		"rarity": "Standard",
+		"text": "Friendly infantry has +1 attack.",
+		"title": "TYPE 97 Chi-Ha",
+		"type": "tank"
+	},
+	{
+		"attack": 5,
+		"attributes": [
+			"blitz"
+		],
+		"defense": 5,
+		"faction": "Soviet",
+		"id": 340,
+		"image": "t34_1942.jpg",
+		"kredits": 5,
+		"operationCost": 2,
+		"rarity": "Standard",
+		"text": "",
+		"title": "T-34 1942",
+		"type": "tank"
+	},
+	{
+		"attack": 5,
+		"attributes": [
+			"OnlySpawnable",
+			"blitz"
+		],
+		"defense": 5,
+		"faction": "Soviet",
+		"id": 341,
+		"image": "t34_1942_b.jpg",
+		"kredits": 5,
+		"operationCost": 2,
+		"rarity": "Standard",
+		"text": "Destroyed at end of turn.",
+		"title": "T-34 1942",
+		"type": "tank"
+	},
+	{
+		"attack": 5,
+		"attributes": [
+			"heavyArmor1"
+		],
+		"defense": 5,
+		"faction": "Soviet",
+		"id": 342,
+		"image": "t3485.jpg",
+		"kredits": 5,
+		"operationCost": 2,
+		"rarity": "Standard",
+		"text": "When the opponent targets T-34-85 with an order, draw a card.",
+		"title": "T-34-85",
+		"type": "tank"
+	},
+	{
+		"attack": 4,
+		"attributes": [
+			"smokescreen"
+		],
+		"defense": 5,
+		"faction": "Soviet",
+		"id": 343,
+		"image": "ot34.jpg",
+		"kredits": 6,
+		"operationCost": 2,
+		"rarity": "Special",
+		"text": "Deal double damage to infantry and HQ.",
+		"title": "OT-34",
+		"type": "tank"
+	},
+	{
+		"attack": 3,
+		"attributes": [
+			"guard"
+		],
+		"defense": 2,
+		"faction": "Soviet",
+		"id": 344,
+		"image": "t70.jpg",
+		"kredits": 2,
+		"operationCost": 1,
+		"rarity": "Standard",
+		"text": "",
+		"title": "T-70",
+		"type": "tank"
+	},
+	{
+		"attack": 0,
+		"attributes": [
+			"smokescreen"
+		],
+		"defense": 4,
+		"faction": "USA",
+		"id": 345,
+		"image": "593rd_jasco.jpg",
+		"kredits": 1,
+		"operationCost": 4,
+		"rarity": "Elite",
+		"text": "Damage dealt to your HQ is reduced by 1.",
+		"title": "593rd JASCO",
+		"type": "infantry"
+	},
+	{
+		"attack": 2,
+		"attributes": [
+			"blitz"
+		],
+		"defense": 2,
+		"faction": "Germany",
+		"id": 346,
+		"image": "wirbelwind.jpg",
+		"kredits": 2,
+		"operationCost": 1,
+		"rarity": "Special",
+		"text": "While WIRBELWIND is in the frontline, enemy air units enter the battlefield pinned.",
+		"title": "WIRBELWIND",
+		"type": "tank"
+	},
+	{
+		"attack": 2,
+		"attributes": [
+			"ambush"
+		],
+		"defense": 5,
+		"faction": "Soviet",
+		"id": 347,
+		"image": "yak_3.jpg",
+		"kredits": 3,
+		"operationCost": 2,
+		"rarity": "Limited",
+		"text": "",
+		"title": "YAK 3",
+		"type": "fighter"
+	},
+	{
+		"attack": 3,
+		"defense": 5,
+		"faction": "Soviet",
+		"id": 348,
+		"image": "yak_9.jpg",
+		"kredits": 5,
+		"operationCost": 2,
+		"rarity": "Special",
+		"text": "Destruction: Draw a Soviet card from your deck.",
+		"title": "YAK 9",
+		"type": "fighter"
+	},
+	{
+		"attack": 4,
+		"attributes": [
+			"ambush"
+		],
+		"defense": 4,
+		"faction": "Japan",
+		"id": 349,
+		"image": "a6m_zero.jpg",
+		"kredits": 5,
+		"operationCost": 2,
+		"rarity": "Standard",
+		"text": "Deployment: Deal 1 damage.",
+		"title": "A6M ZERO",
+		"type": "fighter"
+	}
+]
